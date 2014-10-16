@@ -2,20 +2,20 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.softwaretrajectory.msr.stack.persistence">
+<mapper namespace="edu.hawaii.senin.stack.persistence">
 
   <select id="selectPostSeriesForPreseries" parameterType="Integer"
-    resultType="com.softwaretrajectory.msr.stack.persistence.PostSeries">
+    resultType="edu.hawaii.senin.stack.persistence.PostSeries">
     SELECT * from postseries where ownerUserId=#{value}
   </select>
 
   <select id="selectCommentSeriesForPreseries" parameterType="Integer"
-    resultType="com.softwaretrajectory.msr.stack.persistence.CommentSeries">
+    resultType="edu.hawaii.senin.stack.persistence.CommentSeries">
     SELECT * from commentseries where userId=#{value}
   </select>
 
 
-  <select id="GetPreseriesUsers" resultType="com.softwaretrajectory.msr.stack.persistence.User">
+  <select id="GetPreseriesUsers" resultType="edu.hawaii.senin.stack.persistence.User">
     SELECT * from users
     where id in (select
     distinct(userId) from preseries)
@@ -27,7 +27,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   </select>
 
 
-  <insert id="SaveSaxEntry" parameterType="com.softwaretrajectory.msr.stack.persistence.SaxEntry">
+  <insert id="SaveSaxEntry" parameterType="edu.hawaii.senin.stack.persistence.SaxEntry">
     INSERT INTO preseries_sax
     (`seriesId`,
     `date`,
@@ -36,12 +36,12 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     (#{seriesId}, #{date,
     javaType=org.joda.time.LocalDateTime,
     jdbcType=DATE,
-    typeHandler=com.softwaretrajectory.msr.stack.persistence.LocalDateTimeDateTypeHandler},
+    typeHandler=edu.hawaii.senin.stack.persistence.LocalDateTimeDateTypeHandler},
     #{sax_string})
   </insert>
 
   <select id="GetFirstUserEvent" parameterType="Integer"
-    resultType="com.softwaretrajectory.msr.stack.persistence.PreseriesEvent">
+    resultType="edu.hawaii.senin.stack.persistence.PreseriesEvent">
     SELECT pe.* from preseries_event pe join
     preseries ps on
     pe.seriesId=ps.id where
@@ -50,7 +50,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   </select>
 
   <select id="GetLastUserEvent" parameterType="Integer"
-    resultType="com.softwaretrajectory.msr.stack.persistence.PreseriesEvent">
+    resultType="edu.hawaii.senin.stack.persistence.PreseriesEvent">
     SELECT pe.* from preseries_event pe join
     preseries ps on
     pe.seriesId=ps.id where
@@ -70,11 +70,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     and pe.date between #{start,
     javaType=org.joda.time.LocalDateTime,
     jdbcType=DATE,
-    typeHandler=com.softwaretrajectory.msr.stack.persistence.LocalDateTimeDateTypeHandler} AND
+    typeHandler=edu.hawaii.senin.stack.persistence.LocalDateTimeDateTypeHandler} AND
     #{end,
     javaType=org.joda.time.LocalDateTime,
     jdbcType=DATE,
-    typeHandler=com.softwaretrajectory.msr.stack.persistence.LocalDateTimeDateTypeHandler}
+    typeHandler=edu.hawaii.senin.stack.persistence.LocalDateTimeDateTypeHandler}
     group by pe.hour order
     by hour;
   </select>
@@ -90,22 +90,22 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     and pe.date between #{start,
     javaType=org.joda.time.LocalDateTime,
     jdbcType=DATE,
-    typeHandler=com.softwaretrajectory.msr.stack.persistence.LocalDateTimeDateTypeHandler} AND
+    typeHandler=edu.hawaii.senin.stack.persistence.LocalDateTimeDateTypeHandler} AND
     #{end,
     javaType=org.joda.time.LocalDateTime,
     jdbcType=DATE,
-    typeHandler=com.softwaretrajectory.msr.stack.persistence.LocalDateTimeDateTypeHandler}
+    typeHandler=edu.hawaii.senin.stack.persistence.LocalDateTimeDateTypeHandler}
     group by
     pe.date order by pe.date;
   </select>
 
-  <select id="getPreseriesRecord" parameterType="com.softwaretrajectory.msr.stack.persistence.Preseries"
-    resultType="com.softwaretrajectory.msr.stack.persistence.Preseries">
+  <select id="getPreseriesRecord" parameterType="edu.hawaii.senin.stack.persistence.Preseries"
+    resultType="edu.hawaii.senin.stack.persistence.Preseries">
     SELECT * from preseries where userid=#{userid} and
     tag=#{tag}
   </select>
 
-  <insert id="savePreseries" parameterType="com.softwaretrajectory.msr.stack.persistence.Preseries"
+  <insert id="savePreseries" parameterType="edu.hawaii.senin.stack.persistence.Preseries"
     useGeneratedKeys="true" keyProperty="id">
     INSERT IGNORE INTO preseries
     (`userid`, `tag`) VALUES
@@ -113,15 +113,15 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     #{tag});
   </insert>
 
-  <select id="getPreSeriesEvent" parameterType="com.softwaretrajectory.msr.stack.persistence.PreseriesEvent"
-    resultType="com.softwaretrajectory.msr.stack.persistence.PreseriesEvent">
+  <select id="getPreSeriesEvent" parameterType="edu.hawaii.senin.stack.persistence.PreseriesEvent"
+    resultType="edu.hawaii.senin.stack.persistence.PreseriesEvent">
     select * from preseries_event where `seriesId`=#{seriesId}
     and
     `tag`=#{tag} and
     `date`=#{date} and hour=#{hour}
   </select>
 
-  <insert id="savePreseriesEvent" parameterType="com.softwaretrajectory.msr.stack.persistence.PreseriesEvent">
+  <insert id="savePreseriesEvent" parameterType="edu.hawaii.senin.stack.persistence.PreseriesEvent">
     INSERT INTO preseries_event
     (`seriesId`,
     `tag`, `date`,
@@ -130,12 +130,12 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     (#{seriesId}, #{tag}, #{date,
     javaType=org.joda.time.LocalDateTime,
     jdbcType=DATE,
-    typeHandler=com.softwaretrajectory.msr.stack.persistence.LocalDateTimeDateTypeHandler},
+    typeHandler=edu.hawaii.senin.stack.persistence.LocalDateTimeDateTypeHandler},
     #{hour},
     #{counter})
   </insert>
 
-  <insert id="updatePreseriesEvent" parameterType="com.softwaretrajectory.msr.stack.persistence.PreseriesEvent">
+  <insert id="updatePreseriesEvent" parameterType="edu.hawaii.senin.stack.persistence.PreseriesEvent">
     UPDATE preseries_event set
     `counter`=#{counter} where
     `seriesId`=#{seriesId} and

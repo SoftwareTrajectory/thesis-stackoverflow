@@ -7,25 +7,25 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	<typeHandlers>
 		<typeHandler javaType="javax.xml.datatype.XMLGregorianCalendar"
 			jdbcType="TIMESTAMP"
-			handler="com.softwaretrajectory.msr.stack.persistence.XMLGregorianCalendarTimestampTypeHandler" />
+			handler="edu.hawaii.senin.stack.persistence.XMLGregorianCalendarTimestampTypeHandler" />
 
 		<typeHandler javaType="javax.xml.datatype.XMLGregorianCalendar"
 			jdbcType="DATE"
-			handler="com.softwaretrajectory.msr.stack.persistence.XMLGregorianCalendarDateTypeHandler" />
+			handler="edu.hawaii.senin.stack.persistence.XMLGregorianCalendarDateTypeHandler" />
 
 		<typeHandler javaType="javax.xml.datatype.XMLGregorianCalendar"
-			handler="com.softwaretrajectory.msr.stack.persistence.XMLGregorianCalendarTimestampTypeHandler" />
+			handler="edu.hawaii.senin.stack.persistence.XMLGregorianCalendarTimestampTypeHandler" />
 
 		<typeHandler javaType="org.joda.time.LocalDateTime"
 			jdbcType="DATE"
-			handler="com.softwaretrajectory.msr.stack.persistence.LocalDateTimeDateTypeHandler" />
+			handler="edu.hawaii.senin.stack.persistence.LocalDateTimeDateTypeHandler" />
 
 		<typeHandler javaType="org.joda.time.LocalDateTime"
 			jdbcType="TIMESTAMP"
-			handler="com.softwaretrajectory.msr.stack.persistence.LocalDateTimeDateTypeHandler" />
+			handler="edu.hawaii.senin.stack.persistence.LocalDateTimeDateTypeHandler" />
 
 		<typeHandler javaType="org.joda.time.LocalDateTime"
-			handler="com.softwaretrajectory.msr.stack.persistence.LocalDateTimeDateTypeHandler" />
+			handler="edu.hawaii.senin.stack.persistence.LocalDateTimeDateTypeHandler" />
 	</typeHandlers>
 
 	<environments default="test_environment">
