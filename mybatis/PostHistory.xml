@@ -21,7 +21,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     #{creationDate,
     javaType=javax.xml.datatype.XMLGregorianCalendar,
     jdbcType=TIMESTAMP,
-    typeHandler=edu.hawaii.senin.stack.persistence.XMLGregorianCalendarTypeHandler},
+    typeHandler=edu.hawaii.senin.stack.persistence.XMLGregorianCalendarDateTypeHandler},
     #{revisionGUID}, #{postHistoryTypeId}, #{closeReasonId}, #{userDisplayName},
     #{text}, #{comment})
   </insert>

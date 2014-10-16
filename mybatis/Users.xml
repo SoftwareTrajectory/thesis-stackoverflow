@@ -49,11 +49,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     #{websiteUrl}, #{aboutMe}, #{creationDate,
     javaType=javax.xml.datatype.XMLGregorianCalendar,
     jdbcType=TIMESTAMP,
-    typeHandler=edu.hawaii.senin.stack.persistence.XMLGregorianCalendarTypeHandler},
+    typeHandler=edu.hawaii.senin.stack.persistence.XMLGregorianCalendarDateTypeHandler},
     #{lastAccessDate,
     javaType=javax.xml.datatype.XMLGregorianCalendar,
     jdbcType=TIMESTAMP,
-    typeHandler=edu.hawaii.senin.stack.persistence.XMLGregorianCalendarTypeHandler},
+    typeHandler=edu.hawaii.senin.stack.persistence.XMLGregorianCalendarDateTypeHandler},
     #{reputation}, #{views},
     #{upVotes}, #{downVotes})
     ON DUPLICATE KEY

@@ -13,7 +13,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     (#{id}, #{userId}, #{name}, #{date,
     javaType=javax.xml.datatype.XMLGregorianCalendar,
     jdbcType=TIMESTAMP,
-    typeHandler=edu.hawaii.senin.stack.persistence.XMLGregorianCalendarTypeHandler})
+    typeHandler=edu.hawaii.senin.stack.persistence.XMLGregorianCalendarDateTypeHandler})
   </insert>
 
 </mapper>
