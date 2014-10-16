@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.softwaretrajectory.msr.stack.persistence">
+
+  <insert id="saveCommentSeries" parameterType="com.softwaretrajectory.msr.stack.persistence.CommentSeries"
+    useGeneratedKeys="true" keyProperty="id">
+    INSERT INTO
+    commentseries
+    ( `id`,`postId`,`userId`,
+    `score`,`creationDate`)
+    VALUES
+    (
+    #{id},
+    #{postId}, #{userId},
+    #{score},#{creationDate,
+    javaType=javax.xml.datatype.XMLGregorianCalendar,
+    jdbcType=TIMESTAMP,
+    typeHandler=com.softwaretrajectory.msr.stack.persistence.XMLGregorianCalendarTimestampTypeHandler})
+  </insert>
+
+</mapper>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<typeHandlers>
+		<typeHandler javaType="javax.xml.datatype.XMLGregorianCalendar"
+			jdbcType="TIMESTAMP"
+			handler="com.softwaretrajectory.msr.stack.persistence.XMLGregorianCalendarTimestampTypeHandler" />
+
+		<typeHandler javaType="javax.xml.datatype.XMLGregorianCalendar"
+			jdbcType="DATE"
+			handler="com.softwaretrajectory.msr.stack.persistence.XMLGregorianCalendarDateTypeHandler" />
+
+		<typeHandler javaType="javax.xml.datatype.XMLGregorianCalendar"
+			handler="com.softwaretrajectory.msr.stack.persistence.XMLGregorianCalendarTimestampTypeHandler" />
+
+		<typeHandler javaType="org.joda.time.LocalDateTime"
+			jdbcType="DATE"
+			handler="com.softwaretrajectory.msr.stack.persistence.LocalDateTimeDateTypeHandler" />
+
+		<typeHandler javaType="org.joda.time.LocalDateTime"
+			jdbcType="TIMESTAMP"
+			handler="com.softwaretrajectory.msr.stack.persistence.LocalDateTimeDateTypeHandler" />
+
+		<typeHandler javaType="org.joda.time.LocalDateTime"
+			handler="com.softwaretrajectory.msr.stack.persistence.LocalDateTimeDateTypeHandler" />
+	</typeHandlers>
+
+	<environments default="test_environment">
+
+		<environment id="production_unpooled">
+			<transactionManager type="JDBC" />
+			<dataSource type="UNPOOLED">
+				<property name="driver" value="com.mysql.jdbc.Driver" />
+				<property name="url" value="jdbc:mysql://localhost:3306/stack" />
+				<property name="username" value="stack" />
+				<property name="password" value="stack" />
+			</dataSource>
+		</environment>
+
+		<environment id="production_pooled">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="com.mysql.jdbc.Driver" />
+				<property name="url" value="jdbc:mysql://localhost:3306/stack" />
+				<property name="username" value="stack" />
+				<property name="password" value="stack" />
+			</dataSource>
+		</environment>
+
+		<environment id="test_environment">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="com.mysql.jdbc.Driver" />
+				<property name="url" value="jdbc:mysql://localhost:3306/test" />
+				<property name="username" value="stack" />
+				<property name="password" value="stack" />
+			</dataSource>
+		</environment>
+
+	</environments>
+
+	<mappers>
+		<mapper resource="Users.xml" />
+		<mapper resource="Badges.xml" />
+		<mapper resource="Posts.xml" />
+		<mapper resource="Votes.xml" />
+		<mapper resource="Comments.xml" />
+		<mapper resource="PostHistory.xml" />
+		<mapper resource="Tinker.xml" />
+		<mapper resource="Tags.xml" />
+		<mapper resource="Location.xml" />
+		<mapper resource="PostSeries.xml" />
+		<mapper resource="CommentSeries.xml" />
+		<mapper resource="PreSeries.xml" />
+		<mapper resource="SaxQueries.xml" />
+	</mappers>
+
+</configuration>

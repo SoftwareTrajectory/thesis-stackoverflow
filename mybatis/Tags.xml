@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.softwaretrajectory.msr.stack.persistence">
+
+
+  <select id="selectTag" parameterType="String" resultType="com.softwaretrajectory.msr.stack.persistence.Tag">
+    SELECT * from tags where
+    tag=#{value}
+  </select>
+
+
+  <insert id="saveTag" parameterType="com.softwaretrajectory.msr.stack.persistence.Tag"
+    useGeneratedKeys="true" keyProperty="id">
+    INSERT INTO
+    tags
+    ( `tag`, `creationDate`)
+    VALUES
+    (#{tag},
+    #{creationDate,
+    javaType=javax.xml.datatype.XMLGregorianCalendar,
+    jdbcType=TIMESTAMP,
+    typeHandler=com.softwaretrajectory.msr.stack.persistence.XMLGregorianCalendarTimestampTypeHandler})
+    ON
+    DUPLICATE KEY UPDATE creationDate=#{creationDate,
+    javaType=javax.xml.datatype.XMLGregorianCalendar,
+    jdbcType=TIMESTAMP,
+    typeHandler=com.softwaretrajectory.msr.stack.persistence.XMLGregorianCalendarTimestampTypeHandler}
+  </insert>
+
+</mapper>

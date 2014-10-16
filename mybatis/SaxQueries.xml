@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.softwaretrajectory.msr.stack.persistence">
+
+	<select id="GetSaxWordsForTimezone" parameterType="String"
+		resultType="HashMap">
+		select count(*) as `count`, pss.sax_string as sax from
+		`preseries_sax` pss
+		where pss.seriesId in (select id from preseries
+		where userid in
+		(select id from users where locationId in (select id
+		from locations
+		where tzname=#{value})))
+		group by sax order by `count`
+		desc;
+	</select>
+
+</mapper>
