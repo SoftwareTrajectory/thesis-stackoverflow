@@ -63,7 +63,7 @@ public class Top24KMeansClustering {
 
     // launch KMeans with random centers
     @SuppressWarnings("unused")
-    HashMap<String, List<String>> clusters = TextKMeans.cluster(tfidf, 3,
+    HashMap<String, List<String>> clusters = TextKMeans.cluster(tfidf, 4,
         new FurthestFirstStrategy());
 
     // write down tf*idf vectors for each class

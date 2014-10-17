@@ -1,5 +1,8 @@
 package edu.hawaii.senin.stack.workflow.user;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.Arrays;
@@ -54,6 +57,10 @@ public class UserSeriesJob implements Callable<WordBag> {
 
       User user = session.selectOne("getUser", this.userId);
       resBag.setLabel(user.getDisplayName());
+
+      BufferedWriter bw = new BufferedWriter(new FileWriter(new File(user.getDisplayName().replace(
+          " ", "_")
+          + this.type + "_" + this.paaSize + "_" + this.alphabetSize + ".csv")));
 
       // get the first and the last events
       //
@@ -157,7 +164,8 @@ public class UserSeriesJob implements Callable<WordBag> {
             // sax business
             //
 
-            double[] paa = TSUtils.paa(TSUtils.zNormalize(dayCounts), this.paaSize);
+            double[] paa = TSUtils.optimizedPaa(TSUtils.optimizedZNorm(dayCounts, 0.5D),
+                this.paaSize);
             char[] sax = TSUtils.ts2String(paa, a.getCuts(this.alphabetSize));
 
             resBag.addWord(String.valueOf(sax));
@@ -167,11 +175,17 @@ public class UserSeriesJob implements Callable<WordBag> {
                   + Arrays.toString(paa) + " | " + Arrays.toString(sax));
             }
 
-            // move the start Monday
+            bw.write(currentDate + ","
+                + Arrays.toString(dayCounts).replace("[", "").replace("]", "").replace(", ", ",")
+                + "," + String.valueOf(sax) + "\n");
+
+            // move the day counter
             //
             currentDate = currentDate.plusDays(1);
+
           }
 
+          bw.close();
           return resBag;
         }
 

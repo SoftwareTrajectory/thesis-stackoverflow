@@ -42,6 +42,7 @@ public class TopContributorAngles {
     bagsA.add((new UserSeriesJob(23354, "DAILY", PAA_SIZE, SAX_ALPHABET)).call());
     bagsA.add((new UserSeriesJob(893, "DAILY", PAA_SIZE, SAX_ALPHABET)).call());
     bagsA.add((new UserSeriesJob(29407, "DAILY", PAA_SIZE, SAX_ALPHABET)).call());
+    bagsA.add((new UserSeriesJob(157882, "DAILY", PAA_SIZE, SAX_ALPHABET)).call());
 
     for (WordBag b : bagsA) {
       System.out.println(b.getLabel() + "\n" + b.toColumn());
