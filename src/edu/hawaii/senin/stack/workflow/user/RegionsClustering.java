@@ -1,5 +1,6 @@
 package edu.hawaii.senin.stack.workflow.user;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -14,6 +15,7 @@ import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.Logger;
 import edu.hawaii.jmotif.text.TextUtils;
 import edu.hawaii.jmotif.text.WordBag;
+import edu.hawaii.senin.stack.analysis.UserSeriesJob;
 import edu.hawaii.senin.stack.db.StackDB;
 import edu.hawaii.senin.stack.db.StackDBManager;
 import edu.hawaii.senin.stack.persistence.User;
@@ -36,7 +38,7 @@ public class RegionsClustering {
   private static final int SAX_ALPHABET = 3;
   private static final int PAA_SIZE = 8;
 
-  private static final int MAX_THREADS = 3;
+  private static final int MAX_THREADS = 5;
 
   private static Logger consoleLogger;
   private static Level LOGGING_LEVEL = Level.INFO;
@@ -46,9 +48,15 @@ public class RegionsClustering {
     consoleLogger.setLevel(LOGGING_LEVEL);
   }
 
-  public static void main(String[] args) throws Exception {
+  public static void main(String[] args) {
 
-    db = StackDBManager.getProductionInstance();
+    try {
+      db = StackDBManager.getProductionInstance();
+    }
+    catch (IOException e1) {
+      // TODO Auto-generated catch block
+      e1.printStackTrace();
+    }
 
     List<WordBag> bags = new ArrayList<WordBag>();
     // iterating over timezones

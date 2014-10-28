@@ -1,4 +1,4 @@
-package edu.hawaii.senin.stack.workflow.user;
+package edu.hawaii.senin.stack.analysis;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -60,7 +60,7 @@ public class UserSeriesJob implements Callable<WordBag> {
 
       BufferedWriter bw = new BufferedWriter(new FileWriter(new File(user.getDisplayName().replace(
           " ", "_")
-          + this.type + "_" + this.paaSize + "_" + this.alphabetSize + ".csv")));
+          + "_" + this.type + "_" + this.paaSize + "_" + this.alphabetSize + ".csv")));
 
       // get the first and the last events
       //
@@ -117,16 +117,22 @@ public class UserSeriesJob implements Callable<WordBag> {
             // sax business
             //
 
-            double[] paa = TSUtils.paa(TSUtils.zNormalize(weekCounts), this.paaSize);
+            double[] paa = TSUtils.optimizedPaa(TSUtils.optimizedZNorm(weekCounts, 0.5D),
+                this.paaSize);
             char[] sax = TSUtils.ts2String(paa, a.getCuts(this.alphabetSize));
 
             resBag.addWord(String.valueOf(sax));
+
+            bw.write(currentMonday + ","
+                + Arrays.toString(weekCounts).replace("[", "").replace("]", "").replace(", ", ",")
+                + "," + String.valueOf(sax) + "\n");
 
             // move the start Monday
             //
             currentMonday = currentMonday.plusDays(7);
           }
 
+          bw.close();
           return resBag;
         }
       }
@@ -163,17 +169,11 @@ public class UserSeriesJob implements Callable<WordBag> {
 
             // sax business
             //
-
             double[] paa = TSUtils.optimizedPaa(TSUtils.optimizedZNorm(dayCounts, 0.5D),
                 this.paaSize);
             char[] sax = TSUtils.ts2String(paa, a.getCuts(this.alphabetSize));
 
             resBag.addWord(String.valueOf(sax));
-
-            if ("bbedbc".equalsIgnoreCase(String.valueOf(sax))) {
-              System.out.println(this.userId + " | " + Arrays.toString(dayCounts) + " | "
-                  + Arrays.toString(paa) + " | " + Arrays.toString(sax));
-            }
 
             bw.write(currentDate + ","
                 + Arrays.toString(dayCounts).replace("[", "").replace("]", "").replace(", ", ",")
@@ -194,6 +194,7 @@ public class UserSeriesJob implements Callable<WordBag> {
     }
     catch (IOException e) {
       System.err.println(StackTrace.toString(e));
+      System.exit(10);
       return null;
     }
     finally {

@@ -16,6 +16,7 @@ import edu.hawaii.jmotif.text.TextUtils;
 import edu.hawaii.jmotif.text.WordBag;
 import edu.hawaii.jmotif.text.cluster.FurthestFirstStrategy;
 import edu.hawaii.jmotif.text.cluster.TextKMeans;
+import edu.hawaii.senin.stack.analysis.UserSeriesJob;
 import edu.hawaii.senin.stack.db.StackDB;
 import edu.hawaii.senin.stack.db.StackDBManager;
 

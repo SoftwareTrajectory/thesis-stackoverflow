@@ -10,14 +10,14 @@ import org.slf4j.LoggerFactory;
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.Logger;
 
-public class Vectors2WebLogo {
+public class Experiment01Vectors2WebLogo {
 
   // logger business
   private static Logger consoleLogger;
   private static Level LOGGING_LEVEL = Level.INFO;
 
   static {
-    consoleLogger = (Logger) LoggerFactory.getLogger(Vectors2WebLogo.class);
+    consoleLogger = (Logger) LoggerFactory.getLogger(Experiment01Vectors2WebLogo.class);
     consoleLogger.setLevel(LOGGING_LEVEL);
   }
 
@@ -31,14 +31,14 @@ public class Vectors2WebLogo {
    */
   public static void main(String[] args) throws Exception {
 
-    ArrayList<String[]> dat = readCSV("results/output-vectors.csv");
+    ArrayList<String[]> dat = readCSV("results/WEEKLY/working_copy");
     System.out.println(Arrays.toString(dat.get(0)));
     for (int i = 1; i < dat.size(); i++) {
       String[] arr = dat.get(i);
-      Double freq = Double.valueOf(arr[5]);
+      Double freq = Double.valueOf(arr[2]);
       if (freq > 0.0) {
-        long count = Math.round(freq * 100);
-        // long count = 1;
+        // long count = Math.round(freq * 100);
+        long count = 1;
         for (int j = 0; j < count; j++) {
           System.out.println(arr[0]);
         }

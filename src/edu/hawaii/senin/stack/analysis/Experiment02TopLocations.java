@@ -1,14 +1,10 @@
 package edu.hawaii.senin.stack.analysis;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.TimeZone;
-import java.util.TreeSet;
 import org.apache.ibatis.session.SqlSession;
 import org.slf4j.LoggerFactory;
 import ch.qos.logback.classic.Level;
@@ -18,14 +14,14 @@ import edu.hawaii.jmotif.text.WordBag;
 import edu.hawaii.senin.stack.db.StackDBManager;
 import edu.hawaii.senin.stack.util.StackTrace;
 
-public class TFIDFTimeZones {
+public class Experiment02TopLocations {
 
   // logger business
   private static Logger consoleLogger;
   private static Level LOGGING_LEVEL = Level.INFO;
 
   static {
-    consoleLogger = (Logger) LoggerFactory.getLogger(TFIDFTimeZones.class);
+    consoleLogger = (Logger) LoggerFactory.getLogger(Experiment02TopLocations.class);
     consoleLogger.setLevel(LOGGING_LEVEL);
   }
 
@@ -109,44 +105,6 @@ public class TFIDFTimeZones {
       }
     }
     return wb;
-  }
-
-  private static void writePreClusterTable(HashMap<String, HashMap<String, Double>> tfidf,
-      String fname) throws IOException {
-
-    BufferedWriter bw = new BufferedWriter(new FileWriter(new File(fname)));
-    // melt together sets of keys
-    //
-    TreeSet<String> words = new TreeSet<String>();
-    for (HashMap<String, Double> t : tfidf.values()) {
-      words.addAll(t.keySet());
-    }
-
-    // print keys - the dictionaries names
-    //
-    StringBuilder sb = new StringBuilder();
-    for (String key : tfidf.keySet()) {
-      sb.append("\"").append(key).append("\",");
-    }
-    bw.write(sb.delete(sb.length() - 1, sb.length()).append("\n").toString());
-
-    // print rows, one by one
-    //
-    for (String w : words) {
-      sb = new StringBuilder();
-      sb.append("\"").append(w).append("\",");
-      for (String key : tfidf.keySet()) {
-        HashMap<String, Double> data = tfidf.get(key);
-        if (data.keySet().contains(w)) {
-          sb.append(data.get(w)).append(",");
-        }
-        else {
-          sb.append("0.00,");
-        }
-      }
-      bw.write(sb.delete(sb.length() - 1, sb.length()).append("\n").toString());
-    }
-    bw.close();
   }
 
 }

@@ -10,6 +10,7 @@ import ch.qos.logback.classic.Logger;
 import edu.hawaii.jmotif.text.TextUtils;
 import edu.hawaii.jmotif.text.WordBag;
 import edu.hawaii.jmotif.util.StdRandom;
+import edu.hawaii.senin.stack.analysis.UserSeriesJob;
 import edu.hawaii.senin.stack.db.StackDB;
 import edu.hawaii.senin.stack.db.StackDBManager;
 import edu.hawaii.senin.stack.persistence.User;
