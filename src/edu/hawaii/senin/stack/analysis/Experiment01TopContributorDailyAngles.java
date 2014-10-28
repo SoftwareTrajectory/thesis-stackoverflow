@@ -63,7 +63,7 @@ public class Experiment01TopContributorDailyAngles {
     // launch HC
     Cluster clusters = HC.Hc(tfidf, LinkageCriterion.COMPLETE);
 
-    BufferedWriter bw = new BufferedWriter(new FileWriter("test.newick"));
+    BufferedWriter bw = new BufferedWriter(new FileWriter("clusters_DAILY.newick"));
     bw.write("(" + clusters.toNewick() + ")");
 
     bw.close();
