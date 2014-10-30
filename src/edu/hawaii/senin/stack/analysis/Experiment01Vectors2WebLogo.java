@@ -31,14 +31,14 @@ public class Experiment01Vectors2WebLogo {
    */
   public static void main(String[] args) throws Exception {
 
-    ArrayList<String[]> dat = readCSV("results/WEEKLY/working_copy");
+    ArrayList<String[]> dat = readCSV("results/WEEKLY/vectors.txt");
     System.out.println(Arrays.toString(dat.get(0)));
     for (int i = 1; i < dat.size(); i++) {
       String[] arr = dat.get(i);
-      Double freq = Double.valueOf(arr[2]);
+      Double freq = Double.valueOf(arr[5]);
       if (freq > 0.0) {
-        // long count = Math.round(freq * 100);
-        long count = 1;
+        long count = Math.round(freq * 100);
+        // long count = 1;
         for (int j = 0; j < count; j++) {
           System.out.println(arr[0]);
         }

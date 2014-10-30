@@ -77,7 +77,7 @@ phr1 <- ggplot(d, aes(x=week, y=value)) + geom_line(size=2,color="cornflowerblue
 phr1
 
 
-Cairo(width = 1600, height = 800, 
+Cairo(width = 1500, height = 500, 
       file="figures/stack_overview", 
       type="ps", pointsize=16, 
       bg = "transparent", canvas = "white", units = "px", dpi = 82)
