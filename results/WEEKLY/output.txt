@@ -741,9 +741,6 @@ cbcabab
 acbcaca
 cabaabc
 aaaaacc
-aaaaacc
-aaaaacc
-aaaccaa
 aacccba
 cbccaaa
 acccbaa
@@ -755,7 +752,6 @@ aabaccc
 bccbbaa
 aabcaac
 bbbacab
-caaacaa
 ccccaaa
 cccabaa
 cccabaa
@@ -773,6 +769,9 @@ abbabcc
 accacba
 acabbcc
 bbbbbcb
+bbbbbcc
+bbbbbcc
+bbbccbb
 cbbbbba
 cbbccaa
 cbbbbbb
@@ -807,6 +806,7 @@ abbaacc
 cbababb
 acabacb
 acacbbc
+cbbbcbb
 accbaba
 accbaba
 caccaaa
@@ -916,7 +916,7 @@ acbacaa
 ccacaac
 
 "","Jon Skeet","Darin Dimitrov","Marc Gravell","BalusC","Hans Passant"
-"aaaaacc",0,0,0,0,3
+"aaaaacc",0,0,0,0,1
 "aaaabcc",0,1,0,0,0
 "aaabaac",0,1,0,0,0
 "aaabbac",0,1,0,0,0
@@ -928,7 +928,6 @@ ccacaac
 "aaacacc",0,1,0,0,0
 "aaacbac",0,0,1,0,0
 "aaacbbc",0,0,0,0,1
-"aaaccaa",0,0,0,0,1
 "aaaccab",0,1,0,0,0
 "aaaccac",0,0,1,0,0
 "aaaccbb",0,0,0,0,2
@@ -1126,6 +1125,7 @@ ccacaac
 "bbbbacb",0,0,0,0,1
 "bbbbbbc",0,1,0,0,2
 "bbbbbcb",0,1,0,0,1
+"bbbbbcc",0,0,0,0,2
 "bbbbcaa",0,0,0,1,1
 "bbbbcba",0,0,1,0,0
 "bbbbcbb",0,0,0,0,1
@@ -1139,6 +1139,7 @@ ccacaac
 "bbbccaa",5,1,0,1,1
 "bbbccab",0,0,1,0,0
 "bbbccba",2,0,0,0,0
+"bbbccbb",0,0,0,0,1
 "bbcaabb",0,1,0,0,0
 "bbcaaca",0,2,0,0,0
 "bbcabaa",0,0,0,0,1
@@ -1232,7 +1233,6 @@ ccacaac
 "bcccbaa",5,1,1,3,1
 "bccccaa",5,0,0,4,1
 "caaaabc",0,0,0,0,1
-"caaacaa",0,0,0,0,1
 "caaacab",0,0,1,0,0
 "caaacbb",0,0,1,0,0
 "caababc",0,1,0,0,1
@@ -1310,6 +1310,7 @@ ccacaac
 "cbbbbba",1,0,0,0,1
 "cbbbbbb",0,0,0,0,1
 "cbbbcaa",1,0,2,1,2
+"cbbbcbb",0,0,0,0,1
 "cbbcaaa",1,0,0,2,0
 "cbbcaac",0,0,0,0,1
 "cbbcaba",0,0,0,0,1
@@ -1397,2389 +1398,78 @@ ccacaac
 "ccccaba",0,1,0,1,0
 "ccccbaa",1,0,0,2,1
 
-excluded: cbcabaa
-excluded: cbcabab
-excluded: acbcaca
-excluded: abbbcaa
-excluded: ccbaacb
-excluded: ccbbbba
-excluded: ccbaaca
-excluded: acacbab
-excluded: ccbccaa
-excluded: acacbaa
-excluded: abcccba
-excluded: ccccaaa
-excluded: babccba
-excluded: babbaac
-excluded: ccaacba
-excluded: acbcabc
-excluded: acbcaba
-excluded: abcbaca
-excluded: ccbbaab
-excluded: baaaccc
-excluded: ccbbaaa
-excluded: abbabcc
-excluded: ccbccba
-excluded: acabbcc
-excluded: acaccba
-excluded: abccbaa
-excluded: babaacb
-excluded: ccccaba
-excluded: abccbac
-excluded: babccaa
-excluded: cbcacaa
-excluded: cbcacab
-excluded: abccbca
-excluded: baccaab
-excluded: ccbbabc
-excluded: acacbcb
-excluded: ccbcbaa
-excluded: acacbcc
-excluded: abccbba
-excluded: babcbba
-excluded: abccaba
-excluded: abbaacc
-excluded: abbccac
-excluded: abbccaa
-excluded: ccbcbba
-excluded: acabacb
-excluded: acacbbc
-excluded: abccaaa
-excluded: abccaab
-excluded: acbcbaa
-excluded: acbbaba
-excluded: bbacbab
-excluded: bbacbaa
-excluded: aacbcab
-excluded: abccacb
-excluded: ccbabaa
-excluded: ccbacca
-excluded: baabbcb
-excluded: acaabcb
-excluded: baaccba
-excluded: abccabb
-excluded: ccaaabb
-excluded: ccabbaa
-excluded: ccaaaba
-excluded: aacacca
-excluded: ccbbcaa
-excluded: ccbabbb
-excluded: abbcbab
-excluded: baabbbc
-excluded: acaaccb
-excluded: bbbcabc
-excluded: abbcbba
-excluded: cccbaab
-excluded: ccaaaaa
-excluded: ccabcba
-excluded: acbccab
-excluded: acbccaa
-excluded: ccaaaab
-excluded: acbcaaa
-excluded: aacacbb
-excluded: ccbaaab
-excluded: ccbbcba
-excluded: abbbacc
-excluded: baabacc
-excluded: baabacb
-excluded: acaccaa
-excluded: bbbcaba
-excluded: ccbaaac
-excluded: acaaabc
-excluded: bbbcaab
-excluded: bbbcaac
-excluded: ccccbaa
-excluded: ccaabba
-excluded: ccabcab
-excluded: ccabcaa
-excluded: bbabcca
-excluded: acbbaca
-excluded: aacacab
-excluded: ccbbbab
-excluded: ccbbbaa
-excluded: ccbaaba
-excluded: abbcaac
-excluded: baaccca
-excluded: bbbcbca
-excluded: acabcca
-excluded: bbbcbbb
-excluded: acaabcc
-excluded: bbbbacb
-excluded: acbcbab
-excluded: acbabca
-excluded: aacccba
-excluded: abbcabc
-excluded: acccbab
-excluded: acccbaa
-excluded: bacabcb
-excluded: bacbcba
-excluded: bccbbab
-excluded: bccaabb
-excluded: aabaccc
-excluded: bccaaba
-excluded: aabaccb
-excluded: bccbbac
-excluded: abbcaca
-excluded: acbbcac
-excluded: cccabab
-excluded: acbbcab
-excluded: cccabaa
-excluded: acbbcaa
-excluded: aacccab
-excluded: bcbacaa
-excluded: aacccaa
-excluded: cacacaa
-excluded: bacaabc
-excluded: bacbbaa
-excluded: bacbbac
-excluded: aabbcac
-excluded: bccaaaa
-excluded: acccaaa
-excluded: acbaccc
-excluded: acbabab
-excluded: cccbcaa
-excluded: acbacca
-excluded: acbaacb
-excluded: bcbabba
-excluded: bcbbcab
-excluded: bcbbcaa
-excluded: cacabbc
-excluded: accccaa
-excluded: accaacb
-excluded: accbbba
-excluded: bacacca
-excluded: ccbacaa
-excluded: accccab
-excluded: bccbaab
-excluded: bccbaaa
-excluded: cacbcaa
-excluded: cccaaaa
-excluded: acbbbac
-excluded: cccaaab
-excluded: acbbbaa
-excluded: bcbabab
-excluded: bcbabaa
-excluded: aacaaab
-excluded: aacbcbb
-excluded: aacabcc
-excluded: ccbacba
-excluded: cacabaa
-excluded: bacbcaa
-excluded: accbaab
-excluded: accbaaa
-excluded: bacbcac
-excluded: accbaac
-excluded: acaacaa
-excluded: bccbbba
-excluded: accbaba
-excluded: bccccaa
-excluded: cccbbaa
-excluded: cccaabb
-excluded: cccaaba
-excluded: acbbcbb
-excluded: baccbaa
-excluded: cacaabb
-excluded: accbcba
-excluded: accaaaa
-excluded: accabcb
-excluded: baccbab
-excluded: accaaac
-excluded: bccacba
-excluded: aabccaa
-excluded: aabaacb
-excluded: cacbbaa
-excluded: cacbbab
-excluded: cacbbac
-excluded: aaccaca
-excluded: aaccbca
-excluded: aaccaaa
-excluded: aaccbcb
-excluded: cacaaac
-excluded: baccbba
-excluded: cacaaab
-excluded: cacaaaa
-excluded: cacabca
-excluded: bacbacb
-excluded: accbbaa
-excluded: accaaba
-excluded: accaabb
-excluded: accbbac
-excluded: accbbab
-excluded: accaaca
-excluded: cacbcba
-excluded: bccacab
-excluded: bccacaa
-excluded: babaccb
-excluded: aaccbba
-excluded: cabbcaa
-excluded: accabac
-excluded: bacaaca
-excluded: bacccaa
-excluded: accabaa
-excluded: accabab
-excluded: bccbcaa
-excluded: bccabba
-excluded: cacbbca
-excluded: cacbaaa
-excluded: aabbcbb
-excluded: cbacaca
-excluded: aababcb
-excluded: babbcca
-excluded: cccacaa
-excluded: babbbac
-excluded: babaabc
-excluded: aacbabc
-excluded: aaccbab
-excluded: bacccba
-excluded: bacbbca
-excluded: accabba
-excluded: accabbb
-excluded: accbcab
-excluded: accbcaa
-excluded: bccabaa
-excluded: aabbcca
-excluded: cacccaa
-excluded: aabbccc
-excluded: bccabac
-excluded: bccabab
-excluded: acbacaa
-excluded: aaaccac
-excluded: cabaabc
-excluded: aaaccab
-excluded: aaaaacc
-excluded: aaaccaa
-excluded: cbabacb
-excluded: bcabcca
-excluded: cbacbba
-excluded: accacaa
-excluded: aabcaac
-excluded: bcabcbc
-excluded: bbbacab
-excluded: caaacab
-excluded: caaacaa
-excluded: bcabcba
-excluded: aabcbcc
-excluded: bcbcaaa
-excluded: cababcc
-excluded: bcbcbab
-excluded: aaaccbc
-excluded: aaabaac
-excluded: aaabbcc
-excluded: aaaccbb
-excluded: aaabbcb
-excluded: aabcacb
-excluded: cbacaaa
-excluded: accacba
-excluded: caccbaa
-excluded: caaacbb
-excluded: bcbbaca
-excluded: bbcabba
-excluded: aaaabcc
-excluded: cabbaab
-excluded: cbaccba
-excluded: bcaccba
-excluded: bcabbca
-excluded: bcaaacc
-excluded: bcaccaa
-excluded: cbbcaba
-excluded: bbcabaa
-excluded: bbcabab
-excluded: bbcacca
-excluded: aaabbac
-excluded: bcbcaab
-excluded: aaabccc
-excluded: cabaacc
-excluded: cabccaa
-excluded: aaabccb
-excluded: cabccab
-excluded: bcacbaa
-excluded: cbababa
-excluded: cbacbaa
-excluded: cbababb
-excluded: cbacbac
-excluded: caccaaa
-excluded: caccaab
-excluded: aabbacc
-excluded: aabcbbc
-excluded: caabcac
-excluded: caabcab
-excluded: cbabaca
-excluded: bcabaab
-excluded: bcbcabb
-excluded: bbcacba
-excluded: cabcbba
-excluded: abacabc
-excluded: bcbbbaa
-excluded: bcbaabb
-excluded: bcbaaba
-excluded: bcbbbac
-excluded: bcbbbab
-excluded: bacacab
-excluded: caabcba
-excluded: bcaacaa
-excluded: cbbcbba
-excluded: bbcacab
-excluded: bbcacaa
-excluded: cabcbaa
-excluded: bcbaaaa
-excluded: bcbbcba
-excluded: aaacabc
-excluded: cbaaacc
-excluded: cbaccab
-excluded: cbaccaa
-excluded: bccbaca
-excluded: bacacba
-excluded: caabcca
-excluded: bccbaba
-excluded: cbbcaac
-excluded: cbbcaaa
-excluded: caabbab
-excluded: caaaabc
-excluded: bcaacba
-excluded: aaacacc
-excluded: bcbbaab
-excluded: bcbccba
-excluded: bcbbaaa
-excluded: aaacbac
-excluded: cbaabba
-excluded: cbabcaa
-excluded: cbbbaac
-excluded: cbbbaab
-excluded: aabcacc
-excluded: caaccaa
-excluded: bcaabaa
-excluded: caabbbc
-excluded: abaccca
-excluded: abacccb
-excluded: bcbccaa
-excluded: cbccaba
-excluded: bcbbbbb
-excluded: aaacbbc
-excluded: bcaabca
-excluded: cbaaaac
-excluded: caabbcb
-excluded: bcccaaa
-excluded: bcaabbc
-excluded: cbbcbaa
-excluded: cbbbabc
-excluded: bcabcaa
-excluded: caaccbb
-excluded: cbccaab
-excluded: cbccaaa
-excluded: cbaacbb
-excluded: baacabb
-excluded: caababc
-excluded: bbbcbaa
-excluded: cbbaabb
-excluded: ccacbba
-excluded: ccabaca
-excluded: cbcbaca
-excluded: cbaacca
-excluded: bbbccba
-excluded: bbbbbcb
-excluded: caabacc
-excluded: bbbbaac
-excluded: cbbbbba
-excluded: cbbccaa
-excluded: caacbba
-excluded: cbbbbbb
-excluded: cbbaaca
-excluded: abcacaa
-excluded: abcacab
-excluded: ccacbaa
-excluded: ccacbab
-excluded: bbccaba
-excluded: bbaaccb
-excluded: bbaaccc
-excluded: cbccbab
-excluded: bbaabac
-excluded: cbbbcaa
-excluded: bbbccab
-excluded: bbbccaa
-excluded: bbbbbbc
-excluded: caacaab
-excluded: caacaac
-excluded: abaabcb
-excluded: ababcba
-excluded: bbccaac
-excluded: ccabaab
-excluded: abcacbc
-excluded: bbccaab
-excluded: ccabaaa
-excluded: bbccaaa
-excluded: ccabbca
-excluded: cbcccba
-excluded: cbcbaaa
-excluded: cbaacab
-excluded: baacacc
-excluded: cbbaaab
-excluded: cbbaaac
-excluded: ccaccab
-excluded: ccabbba
-excluded: cbcccaa
-excluded: bcacbba
-excluded: bcabaca
-excluded: ccbcaaa
-excluded: bbbbcba
-excluded: bbbbcbb
-excluded: caacacb
-excluded: bcacbac
-excluded: bcacbab
-excluded: abaaccc
-excluded: abaaccb
-excluded: abcbcaa
-excluded: abcbcab
-excluded: bbccbab
-excluded: bbccbaa
-excluded: abcbcac
-excluded: bbcbaba
-excluded: cbcaabb
-excluded: cbcbbab
-excluded: cbcbcca
-excluded: bcacaab
-excluded: bcacaaa
-excluded: bcacbcb
-excluded: ccbcabb
-excluded: ccbcaca
-excluded: cbbabaa
-excluded: bbbbcaa
-excluded: abaacbb
-excluded: abcbcba
-excluded: bbcbaab
-excluded: bbcccba
-excluded: cbcaaac
-excluded: bcacabb
-excluded: bbbabac
-excluded: bcacaac
-excluded: abcbbaa
-excluded: abcbccb
-excluded: abcbbab
-excluded: abcbbac
-excluded: bbcbbbb
-excluded: bbcaaca
-excluded: ccacaba
-excluded: cbcbcaa
-excluded: ccacabb
-excluded: abbacca
-excluded: cbbacac
-excluded: cbbacaa
-excluded: abcaaca
-excluded: abcbbba
-excluded: bbcbbaa
-excluded: bbcaabb
-excluded: ccacaac
-excluded: cbcabaa
-excluded: cbcabab
-excluded: acbcaca
-excluded: abbbcaa
-excluded: ccbaacb
-excluded: ccbbbba
-excluded: ccbaaca
-excluded: acacbab
-excluded: ccbccaa
-excluded: acacbaa
-excluded: abcccba
-excluded: ccccaaa
-excluded: babccba
-excluded: babbaac
-excluded: ccaacba
-excluded: acbcabc
-excluded: acbcaba
-excluded: abcbaca
-excluded: ccbbaab
-excluded: baaaccc
-excluded: ccbbaaa
-excluded: abbabcc
-excluded: ccbccba
-excluded: acabbcc
-excluded: acaccba
-excluded: abccbaa
-excluded: babaacb
-excluded: ccccaba
-excluded: abccbac
-excluded: babccaa
-excluded: cbcacaa
-excluded: cbcacab
-excluded: abccbca
-excluded: baccaab
-excluded: ccbbabc
-excluded: acacbcb
-excluded: ccbcbaa
-excluded: acacbcc
-excluded: abccbba
-excluded: babcbba
-excluded: abccaba
-excluded: abbaacc
-excluded: abbccac
-excluded: abbccaa
-excluded: ccbcbba
-excluded: acabacb
-excluded: acacbbc
-excluded: abccaaa
-excluded: abccaab
-excluded: acbcbaa
-excluded: acbbaba
-excluded: bbacbab
-excluded: bbacbaa
-excluded: aacbcab
-excluded: abccacb
-excluded: ccbabaa
-excluded: ccbacca
-excluded: baabbcb
-excluded: acaabcb
-excluded: baaccba
-excluded: abccabb
-excluded: ccaaabb
-excluded: ccabbaa
-excluded: ccaaaba
-excluded: aacacca
-excluded: ccbbcaa
-excluded: ccbabbb
-excluded: abbcbab
-excluded: baabbbc
-excluded: acaaccb
-excluded: bbbcabc
-excluded: abbcbba
-excluded: cccbaab
-excluded: ccaaaaa
-excluded: ccabcba
-excluded: acbccab
-excluded: acbccaa
-excluded: ccaaaab
-excluded: acbcaaa
-excluded: aacacbb
-excluded: ccbaaab
-excluded: ccbbcba
-excluded: abbbacc
-excluded: baabacc
-excluded: baabacb
-excluded: acaccaa
-excluded: bbbcaba
-excluded: ccbaaac
-excluded: acaaabc
-excluded: bbbcaab
-excluded: bbbcaac
-excluded: ccccbaa
-excluded: ccaabba
-excluded: ccabcab
-excluded: ccabcaa
-excluded: bbabcca
-excluded: acbbaca
-excluded: aacacab
-excluded: ccbbbab
-excluded: ccbbbaa
-excluded: ccbaaba
-excluded: abbcaac
-excluded: baaccca
-excluded: bbbcbca
-excluded: acabcca
-excluded: bbbcbbb
-excluded: acaabcc
-excluded: bbbbacb
-excluded: acbcbab
-excluded: acbabca
-excluded: aacccba
-excluded: abbcabc
-excluded: acccbab
-excluded: acccbaa
-excluded: bacabcb
-excluded: bacbcba
-excluded: bccbbab
-excluded: bccaabb
-excluded: aabaccc
-excluded: bccaaba
-excluded: aabaccb
-excluded: bccbbac
-excluded: abbcaca
-excluded: acbbcac
-excluded: cccabab
-excluded: acbbcab
-excluded: cccabaa
-excluded: acbbcaa
-excluded: aacccab
-excluded: bcbacaa
-excluded: aacccaa
-excluded: cacacaa
-excluded: bacaabc
-excluded: bacbbaa
-excluded: bacbbac
-excluded: aabbcac
-excluded: bccaaaa
-excluded: acccaaa
-excluded: acbaccc
-excluded: acbabab
-excluded: cccbcaa
-excluded: acbacca
-excluded: acbaacb
-excluded: bcbabba
-excluded: bcbbcab
-excluded: bcbbcaa
-excluded: cacabbc
-excluded: accccaa
-excluded: accaacb
-excluded: accbbba
-excluded: bacacca
-excluded: ccbacaa
-excluded: accccab
-excluded: bccbaab
-excluded: bccbaaa
-excluded: cacbcaa
-excluded: cccaaaa
-excluded: acbbbac
-excluded: cccaaab
-excluded: acbbbaa
-excluded: bcbabab
-excluded: bcbabaa
-excluded: aacaaab
-excluded: aacbcbb
-excluded: aacabcc
-excluded: ccbacba
-excluded: cacabaa
-excluded: bacbcaa
-excluded: accbaab
-excluded: accbaaa
-excluded: bacbcac
-excluded: accbaac
-excluded: acaacaa
-excluded: bccbbba
-excluded: accbaba
-excluded: bccccaa
-excluded: cccbbaa
-excluded: cccaabb
-excluded: cccaaba
-excluded: acbbcbb
-excluded: baccbaa
-excluded: cacaabb
-excluded: accbcba
-excluded: accaaaa
-excluded: accabcb
-excluded: baccbab
-excluded: accaaac
-excluded: bccacba
-excluded: aabccaa
-excluded: aabaacb
-excluded: cacbbaa
-excluded: cacbbab
-excluded: cacbbac
-excluded: aaccaca
-excluded: aaccbca
-excluded: aaccaaa
-excluded: aaccbcb
-excluded: cacaaac
-excluded: baccbba
-excluded: cacaaab
-excluded: cacaaaa
-excluded: cacabca
-excluded: bacbacb
-excluded: accbbaa
-excluded: accaaba
-excluded: accaabb
-excluded: accbbac
-excluded: accbbab
-excluded: accaaca
-excluded: cacbcba
-excluded: bccacab
-excluded: bccacaa
-excluded: babaccb
-excluded: aaccbba
-excluded: cabbcaa
-excluded: accabac
-excluded: bacaaca
-excluded: bacccaa
-excluded: accabaa
-excluded: accabab
-excluded: bccbcaa
-excluded: bccabba
-excluded: cacbbca
-excluded: cacbaaa
-excluded: aabbcbb
-excluded: cbacaca
-excluded: aababcb
-excluded: babbcca
-excluded: cccacaa
-excluded: babbbac
-excluded: babaabc
-excluded: aacbabc
-excluded: aaccbab
-excluded: bacccba
-excluded: bacbbca
-excluded: accabba
-excluded: accabbb
-excluded: accbcab
-excluded: accbcaa
-excluded: bccabaa
-excluded: aabbcca
-excluded: cacccaa
-excluded: aabbccc
-excluded: bccabac
-excluded: bccabab
-excluded: acbacaa
-excluded: aaaccac
-excluded: cabaabc
-excluded: aaaccab
-excluded: aaaaacc
-excluded: aaaccaa
-excluded: cbabacb
-excluded: bcabcca
-excluded: cbacbba
-excluded: accacaa
-excluded: aabcaac
-excluded: bcabcbc
-excluded: bbbacab
-excluded: caaacab
-excluded: caaacaa
-excluded: bcabcba
-excluded: aabcbcc
-excluded: bcbcaaa
-excluded: cababcc
-excluded: bcbcbab
-excluded: aaaccbc
-excluded: aaabaac
-excluded: aaabbcc
-excluded: aaaccbb
-excluded: aaabbcb
-excluded: aabcacb
-excluded: cbacaaa
-excluded: accacba
-excluded: caccbaa
-excluded: caaacbb
-excluded: bcbbaca
-excluded: bbcabba
-excluded: aaaabcc
-excluded: cabbaab
-excluded: cbaccba
-excluded: bcaccba
-excluded: bcabbca
-excluded: bcaaacc
-excluded: bcaccaa
-excluded: cbbcaba
-excluded: bbcabaa
-excluded: bbcabab
-excluded: bbcacca
-excluded: aaabbac
-excluded: bcbcaab
-excluded: aaabccc
-excluded: cabaacc
-excluded: cabccaa
-excluded: aaabccb
-excluded: cabccab
-excluded: bcacbaa
-excluded: cbababa
-excluded: cbacbaa
-excluded: cbababb
-excluded: cbacbac
-excluded: caccaaa
-excluded: caccaab
-excluded: aabbacc
-excluded: aabcbbc
-excluded: caabcac
-excluded: caabcab
-excluded: cbabaca
-excluded: bcabaab
-excluded: bcbcabb
-excluded: bbcacba
-excluded: cabcbba
-excluded: abacabc
-excluded: bcbbbaa
-excluded: bcbaabb
-excluded: bcbaaba
-excluded: bcbbbac
-excluded: bcbbbab
-excluded: bacacab
-excluded: caabcba
-excluded: bcaacaa
-excluded: cbbcbba
-excluded: bbcacab
-excluded: bbcacaa
-excluded: cabcbaa
-excluded: bcbaaaa
-excluded: bcbbcba
-excluded: aaacabc
-excluded: cbaaacc
-excluded: cbaccab
-excluded: cbaccaa
-excluded: bccbaca
-excluded: bacacba
-excluded: caabcca
-excluded: bccbaba
-excluded: cbbcaac
-excluded: cbbcaaa
-excluded: caabbab
-excluded: caaaabc
-excluded: bcaacba
-excluded: aaacacc
-excluded: bcbbaab
-excluded: bcbccba
-excluded: bcbbaaa
-excluded: aaacbac
-excluded: cbaabba
-excluded: cbabcaa
-excluded: cbbbaac
-excluded: cbbbaab
-excluded: aabcacc
-excluded: caaccaa
-excluded: bcaabaa
-excluded: caabbbc
-excluded: abaccca
-excluded: abacccb
-excluded: bcbccaa
-excluded: cbccaba
-excluded: bcbbbbb
-excluded: aaacbbc
-excluded: bcaabca
-excluded: cbaaaac
-excluded: caabbcb
-excluded: bcccaaa
-excluded: bcaabbc
-excluded: cbbcbaa
-excluded: cbbbabc
-excluded: bcabcaa
-excluded: caaccbb
-excluded: cbccaab
-excluded: cbccaaa
-excluded: cbaacbb
-excluded: baacabb
-excluded: caababc
-excluded: bbbcbaa
-excluded: cbbaabb
-excluded: ccacbba
-excluded: ccabaca
-excluded: cbcbaca
-excluded: cbaacca
-excluded: bbbccba
-excluded: bbbbbcb
-excluded: caabacc
-excluded: bbbbaac
-excluded: cbbbbba
-excluded: cbbccaa
-excluded: caacbba
-excluded: cbbbbbb
-excluded: cbbaaca
-excluded: abcacaa
-excluded: abcacab
-excluded: ccacbaa
-excluded: ccacbab
-excluded: bbccaba
-excluded: bbaaccb
-excluded: bbaaccc
-excluded: cbccbab
-excluded: bbaabac
-excluded: cbbbcaa
-excluded: bbbccab
-excluded: bbbccaa
-excluded: bbbbbbc
-excluded: caacaab
-excluded: caacaac
-excluded: abaabcb
-excluded: ababcba
-excluded: bbccaac
-excluded: ccabaab
-excluded: abcacbc
-excluded: bbccaab
-excluded: ccabaaa
-excluded: bbccaaa
-excluded: ccabbca
-excluded: cbcccba
-excluded: cbcbaaa
-excluded: cbaacab
-excluded: baacacc
-excluded: cbbaaab
-excluded: cbbaaac
-excluded: ccaccab
-excluded: ccabbba
-excluded: cbcccaa
-excluded: bcacbba
-excluded: bcabaca
-excluded: ccbcaaa
-excluded: bbbbcba
-excluded: bbbbcbb
-excluded: caacacb
-excluded: bcacbac
-excluded: bcacbab
-excluded: abaaccc
-excluded: abaaccb
-excluded: abcbcaa
-excluded: abcbcab
-excluded: bbccbab
-excluded: bbccbaa
-excluded: abcbcac
-excluded: bbcbaba
-excluded: cbcaabb
-excluded: cbcbbab
-excluded: cbcbcca
-excluded: bcacaab
-excluded: bcacaaa
-excluded: bcacbcb
-excluded: ccbcabb
-excluded: ccbcaca
-excluded: cbbabaa
-excluded: bbbbcaa
-excluded: abaacbb
-excluded: abcbcba
-excluded: bbcbaab
-excluded: bbcccba
-excluded: cbcaaac
-excluded: bcacabb
-excluded: bbbabac
-excluded: bcacaac
-excluded: abcbbaa
-excluded: abcbccb
-excluded: abcbbab
-excluded: abcbbac
-excluded: bbcbbbb
-excluded: bbcaaca
-excluded: ccacaba
-excluded: cbcbcaa
-excluded: ccacabb
-excluded: abbacca
-excluded: cbbacac
-excluded: cbbacaa
-excluded: abcaaca
-excluded: abcbbba
-excluded: bbcbbaa
-excluded: bbcaabb
-excluded: ccacaac
-excluded: cbcabaa
-excluded: cbcabab
-excluded: acbcaca
-excluded: abbbcaa
-excluded: ccbaacb
-excluded: ccbbbba
-excluded: ccbaaca
-excluded: acacbab
-excluded: ccbccaa
-excluded: acacbaa
-excluded: abcccba
-excluded: ccccaaa
-excluded: babccba
-excluded: babbaac
-excluded: ccaacba
-excluded: acbcabc
-excluded: acbcaba
-excluded: abcbaca
-excluded: ccbbaab
-excluded: baaaccc
-excluded: ccbbaaa
-excluded: abbabcc
-excluded: ccbccba
-excluded: acabbcc
-excluded: acaccba
-excluded: abccbaa
-excluded: babaacb
-excluded: ccccaba
-excluded: abccbac
-excluded: babccaa
-excluded: cbcacaa
-excluded: cbcacab
-excluded: abccbca
-excluded: baccaab
-excluded: ccbbabc
-excluded: acacbcb
-excluded: ccbcbaa
-excluded: acacbcc
-excluded: abccbba
-excluded: babcbba
-excluded: abccaba
-excluded: abbaacc
-excluded: abbccac
-excluded: abbccaa
-excluded: ccbcbba
-excluded: acabacb
-excluded: acacbbc
-excluded: abccaaa
-excluded: abccaab
-excluded: acbcbaa
-excluded: acbbaba
-excluded: bbacbab
-excluded: bbacbaa
-excluded: aacbcab
-excluded: abccacb
-excluded: ccbabaa
-excluded: ccbacca
-excluded: baabbcb
-excluded: acaabcb
-excluded: baaccba
-excluded: abccabb
-excluded: ccaaabb
-excluded: ccabbaa
-excluded: ccaaaba
-excluded: aacacca
-excluded: ccbbcaa
-excluded: ccbabbb
-excluded: abbcbab
-excluded: baabbbc
-excluded: acaaccb
-excluded: bbbcabc
-excluded: abbcbba
-excluded: cccbaab
-excluded: ccaaaaa
-excluded: ccabcba
-excluded: acbccab
-excluded: acbccaa
-excluded: ccaaaab
-excluded: acbcaaa
-excluded: aacacbb
-excluded: ccbaaab
-excluded: ccbbcba
-excluded: abbbacc
-excluded: baabacc
-excluded: baabacb
-excluded: acaccaa
-excluded: bbbcaba
-excluded: ccbaaac
-excluded: acaaabc
-excluded: bbbcaab
-excluded: bbbcaac
-excluded: ccccbaa
-excluded: ccaabba
-excluded: ccabcab
-excluded: ccabcaa
-excluded: bbabcca
-excluded: acbbaca
-excluded: aacacab
-excluded: ccbbbab
-excluded: ccbbbaa
-excluded: ccbaaba
-excluded: abbcaac
-excluded: baaccca
-excluded: bbbcbca
-excluded: acabcca
-excluded: bbbcbbb
-excluded: acaabcc
-excluded: bbbbacb
-excluded: acbcbab
-excluded: acbabca
-excluded: aacccba
-excluded: abbcabc
-excluded: acccbab
-excluded: acccbaa
-excluded: bacabcb
-excluded: bacbcba
-excluded: bccbbab
-excluded: bccaabb
-excluded: aabaccc
-excluded: bccaaba
-excluded: aabaccb
-excluded: bccbbac
-excluded: abbcaca
-excluded: acbbcac
-excluded: cccabab
-excluded: acbbcab
-excluded: cccabaa
-excluded: acbbcaa
-excluded: aacccab
-excluded: bcbacaa
-excluded: aacccaa
-excluded: cacacaa
-excluded: bacaabc
-excluded: bacbbaa
-excluded: bacbbac
-excluded: aabbcac
-excluded: bccaaaa
-excluded: acccaaa
-excluded: acbaccc
-excluded: acbabab
-excluded: cccbcaa
-excluded: acbacca
-excluded: acbaacb
-excluded: bcbabba
-excluded: bcbbcab
-excluded: bcbbcaa
-excluded: cacabbc
-excluded: accccaa
-excluded: accaacb
-excluded: accbbba
-excluded: bacacca
-excluded: ccbacaa
-excluded: accccab
-excluded: bccbaab
-excluded: bccbaaa
-excluded: cacbcaa
-excluded: cccaaaa
-excluded: acbbbac
-excluded: cccaaab
-excluded: acbbbaa
-excluded: bcbabab
-excluded: bcbabaa
-excluded: aacaaab
-excluded: aacbcbb
-excluded: aacabcc
-excluded: ccbacba
-excluded: cacabaa
-excluded: bacbcaa
-excluded: accbaab
-excluded: accbaaa
-excluded: bacbcac
-excluded: accbaac
-excluded: acaacaa
-excluded: bccbbba
-excluded: accbaba
-excluded: bccccaa
-excluded: cccbbaa
-excluded: cccaabb
-excluded: cccaaba
-excluded: acbbcbb
-excluded: baccbaa
-excluded: cacaabb
-excluded: accbcba
-excluded: accaaaa
-excluded: accabcb
-excluded: baccbab
-excluded: accaaac
-excluded: bccacba
-excluded: aabccaa
-excluded: aabaacb
-excluded: cacbbaa
-excluded: cacbbab
-excluded: cacbbac
-excluded: aaccaca
-excluded: aaccbca
-excluded: aaccaaa
-excluded: aaccbcb
-excluded: cacaaac
-excluded: baccbba
-excluded: cacaaab
-excluded: cacaaaa
-excluded: cacabca
-excluded: bacbacb
-excluded: accbbaa
-excluded: accaaba
-excluded: accaabb
-excluded: accbbac
-excluded: accbbab
-excluded: accaaca
-excluded: cacbcba
-excluded: bccacab
-excluded: bccacaa
-excluded: babaccb
-excluded: aaccbba
-excluded: cabbcaa
-excluded: accabac
-excluded: bacaaca
-excluded: bacccaa
-excluded: accabaa
-excluded: accabab
-excluded: bccbcaa
-excluded: bccabba
-excluded: cacbbca
-excluded: cacbaaa
-excluded: aabbcbb
-excluded: cbacaca
-excluded: aababcb
-excluded: babbcca
-excluded: cccacaa
-excluded: babbbac
-excluded: babaabc
-excluded: aacbabc
-excluded: aaccbab
-excluded: bacccba
-excluded: bacbbca
-excluded: accabba
-excluded: accabbb
-excluded: accbcab
-excluded: accbcaa
-excluded: bccabaa
-excluded: aabbcca
-excluded: cacccaa
-excluded: aabbccc
-excluded: bccabac
-excluded: bccabab
-excluded: acbacaa
-excluded: aaaccac
-excluded: cabaabc
-excluded: aaaccab
-excluded: aaaaacc
-excluded: aaaccaa
-excluded: cbabacb
-excluded: bcabcca
-excluded: cbacbba
-excluded: accacaa
-excluded: aabcaac
-excluded: bcabcbc
-excluded: bbbacab
-excluded: caaacab
-excluded: caaacaa
-excluded: bcabcba
-excluded: aabcbcc
-excluded: bcbcaaa
-excluded: cababcc
-excluded: bcbcbab
-excluded: aaaccbc
-excluded: aaabaac
-excluded: aaabbcc
-excluded: aaaccbb
-excluded: aaabbcb
-excluded: aabcacb
-excluded: cbacaaa
-excluded: accacba
-excluded: caccbaa
-excluded: caaacbb
-excluded: bcbbaca
-excluded: bbcabba
-excluded: aaaabcc
-excluded: cabbaab
-excluded: cbaccba
-excluded: bcaccba
-excluded: bcabbca
-excluded: bcaaacc
-excluded: bcaccaa
-excluded: cbbcaba
-excluded: bbcabaa
-excluded: bbcabab
-excluded: bbcacca
-excluded: aaabbac
-excluded: bcbcaab
-excluded: aaabccc
-excluded: cabaacc
-excluded: cabccaa
-excluded: aaabccb
-excluded: cabccab
-excluded: bcacbaa
-excluded: cbababa
-excluded: cbacbaa
-excluded: cbababb
-excluded: cbacbac
-excluded: caccaaa
-excluded: caccaab
-excluded: aabbacc
-excluded: aabcbbc
-excluded: caabcac
-excluded: caabcab
-excluded: cbabaca
-excluded: bcabaab
-excluded: bcbcabb
-excluded: bbcacba
-excluded: cabcbba
-excluded: abacabc
-excluded: bcbbbaa
-excluded: bcbaabb
-excluded: bcbaaba
-excluded: bcbbbac
-excluded: bcbbbab
-excluded: bacacab
-excluded: caabcba
-excluded: bcaacaa
-excluded: cbbcbba
-excluded: bbcacab
-excluded: bbcacaa
-excluded: cabcbaa
-excluded: bcbaaaa
-excluded: bcbbcba
-excluded: aaacabc
-excluded: cbaaacc
-excluded: cbaccab
-excluded: cbaccaa
-excluded: bccbaca
-excluded: bacacba
-excluded: caabcca
-excluded: bccbaba
-excluded: cbbcaac
-excluded: cbbcaaa
-excluded: caabbab
-excluded: caaaabc
-excluded: bcaacba
-excluded: aaacacc
-excluded: bcbbaab
-excluded: bcbccba
-excluded: bcbbaaa
-excluded: aaacbac
-excluded: cbaabba
-excluded: cbabcaa
-excluded: cbbbaac
-excluded: cbbbaab
-excluded: aabcacc
-excluded: caaccaa
-excluded: bcaabaa
-excluded: caabbbc
-excluded: abaccca
-excluded: abacccb
-excluded: bcbccaa
-excluded: cbccaba
-excluded: bcbbbbb
-excluded: aaacbbc
-excluded: bcaabca
-excluded: cbaaaac
-excluded: caabbcb
-excluded: bcccaaa
-excluded: bcaabbc
-excluded: cbbcbaa
-excluded: cbbbabc
-excluded: bcabcaa
-excluded: caaccbb
-excluded: cbccaab
-excluded: cbccaaa
-excluded: cbaacbb
-excluded: baacabb
-excluded: caababc
-excluded: bbbcbaa
-excluded: cbbaabb
-excluded: ccacbba
-excluded: ccabaca
-excluded: cbcbaca
-excluded: cbaacca
-excluded: bbbccba
-excluded: bbbbbcb
-excluded: caabacc
-excluded: bbbbaac
-excluded: cbbbbba
-excluded: cbbccaa
-excluded: caacbba
-excluded: cbbbbbb
-excluded: cbbaaca
-excluded: abcacaa
-excluded: abcacab
-excluded: ccacbaa
-excluded: ccacbab
-excluded: bbccaba
-excluded: bbaaccb
-excluded: bbaaccc
-excluded: cbccbab
-excluded: bbaabac
-excluded: cbbbcaa
-excluded: bbbccab
-excluded: bbbccaa
-excluded: bbbbbbc
-excluded: caacaab
-excluded: caacaac
-excluded: abaabcb
-excluded: ababcba
-excluded: bbccaac
-excluded: ccabaab
-excluded: abcacbc
-excluded: bbccaab
-excluded: ccabaaa
-excluded: bbccaaa
-excluded: ccabbca
-excluded: cbcccba
-excluded: cbcbaaa
-excluded: cbaacab
-excluded: baacacc
-excluded: cbbaaab
-excluded: cbbaaac
-excluded: ccaccab
-excluded: ccabbba
-excluded: cbcccaa
-excluded: bcacbba
-excluded: bcabaca
-excluded: ccbcaaa
-excluded: bbbbcba
-excluded: bbbbcbb
-excluded: caacacb
-excluded: bcacbac
-excluded: bcacbab
-excluded: abaaccc
-excluded: abaaccb
-excluded: abcbcaa
-excluded: abcbcab
-excluded: bbccbab
-excluded: bbccbaa
-excluded: abcbcac
-excluded: bbcbaba
-excluded: cbcaabb
-excluded: cbcbbab
-excluded: cbcbcca
-excluded: bcacaab
-excluded: bcacaaa
-excluded: bcacbcb
-excluded: ccbcabb
-excluded: ccbcaca
-excluded: cbbabaa
-excluded: bbbbcaa
-excluded: abaacbb
-excluded: abcbcba
-excluded: bbcbaab
-excluded: bbcccba
-excluded: cbcaaac
-excluded: bcacabb
-excluded: bbbabac
-excluded: bcacaac
-excluded: abcbbaa
-excluded: abcbccb
-excluded: abcbbab
-excluded: abcbbac
-excluded: bbcbbbb
-excluded: bbcaaca
-excluded: ccacaba
-excluded: cbcbcaa
-excluded: ccacabb
-excluded: abbacca
-excluded: cbbacac
-excluded: cbbacaa
-excluded: abcaaca
-excluded: abcbbba
-excluded: bbcbbaa
-excluded: bbcaabb
-excluded: ccacaac
-excluded: cbcabaa
-excluded: cbcabab
-excluded: acbcaca
-excluded: abbbcaa
-excluded: ccbaacb
-excluded: ccbbbba
-excluded: ccbaaca
-excluded: acacbab
-excluded: ccbccaa
-excluded: acacbaa
-excluded: abcccba
-excluded: ccccaaa
-excluded: babccba
-excluded: babbaac
-excluded: ccaacba
-excluded: acbcabc
-excluded: acbcaba
-excluded: abcbaca
-excluded: ccbbaab
-excluded: baaaccc
-excluded: ccbbaaa
-excluded: abbabcc
-excluded: ccbccba
-excluded: acabbcc
-excluded: acaccba
-excluded: abccbaa
-excluded: babaacb
-excluded: ccccaba
-excluded: abccbac
-excluded: babccaa
-excluded: cbcacaa
-excluded: cbcacab
-excluded: abccbca
-excluded: baccaab
-excluded: ccbbabc
-excluded: acacbcb
-excluded: ccbcbaa
-excluded: acacbcc
-excluded: abccbba
-excluded: babcbba
-excluded: abccaba
-excluded: abbaacc
-excluded: abbccac
-excluded: abbccaa
-excluded: ccbcbba
-excluded: acabacb
-excluded: acacbbc
-excluded: abccaaa
-excluded: abccaab
-excluded: acbcbaa
-excluded: acbbaba
-excluded: bbacbab
-excluded: bbacbaa
-excluded: aacbcab
-excluded: abccacb
-excluded: ccbabaa
-excluded: ccbacca
-excluded: baabbcb
-excluded: acaabcb
-excluded: baaccba
-excluded: abccabb
-excluded: ccaaabb
-excluded: ccabbaa
-excluded: ccaaaba
-excluded: aacacca
-excluded: ccbbcaa
-excluded: ccbabbb
-excluded: abbcbab
-excluded: baabbbc
-excluded: acaaccb
-excluded: bbbcabc
-excluded: abbcbba
-excluded: cccbaab
-excluded: ccaaaaa
-excluded: ccabcba
-excluded: acbccab
-excluded: acbccaa
-excluded: ccaaaab
-excluded: acbcaaa
-excluded: aacacbb
-excluded: ccbaaab
-excluded: ccbbcba
-excluded: abbbacc
-excluded: baabacc
-excluded: baabacb
-excluded: acaccaa
-excluded: bbbcaba
-excluded: ccbaaac
-excluded: acaaabc
-excluded: bbbcaab
-excluded: bbbcaac
-excluded: ccccbaa
-excluded: ccaabba
-excluded: ccabcab
-excluded: ccabcaa
-excluded: bbabcca
-excluded: acbbaca
-excluded: aacacab
-excluded: ccbbbab
-excluded: ccbbbaa
-excluded: ccbaaba
-excluded: abbcaac
-excluded: baaccca
-excluded: bbbcbca
-excluded: acabcca
-excluded: bbbcbbb
-excluded: acaabcc
-excluded: bbbbacb
-excluded: acbcbab
-excluded: acbabca
-excluded: aacccba
-excluded: abbcabc
-excluded: acccbab
-excluded: acccbaa
-excluded: bacabcb
-excluded: bacbcba
-excluded: bccbbab
-excluded: bccaabb
-excluded: aabaccc
-excluded: bccaaba
-excluded: aabaccb
-excluded: bccbbac
-excluded: abbcaca
-excluded: acbbcac
-excluded: cccabab
-excluded: acbbcab
-excluded: cccabaa
-excluded: acbbcaa
-excluded: aacccab
-excluded: bcbacaa
-excluded: aacccaa
-excluded: cacacaa
-excluded: bacaabc
-excluded: bacbbaa
-excluded: bacbbac
-excluded: aabbcac
-excluded: bccaaaa
-excluded: acccaaa
-excluded: acbaccc
-excluded: acbabab
-excluded: cccbcaa
-excluded: acbacca
-excluded: acbaacb
-excluded: bcbabba
-excluded: bcbbcab
-excluded: bcbbcaa
-excluded: cacabbc
-excluded: accccaa
-excluded: accaacb
-excluded: accbbba
-excluded: bacacca
-excluded: ccbacaa
-excluded: accccab
-excluded: bccbaab
-excluded: bccbaaa
-excluded: cacbcaa
-excluded: cccaaaa
-excluded: acbbbac
-excluded: cccaaab
-excluded: acbbbaa
-excluded: bcbabab
-excluded: bcbabaa
-excluded: aacaaab
-excluded: aacbcbb
-excluded: aacabcc
-excluded: ccbacba
-excluded: cacabaa
-excluded: bacbcaa
-excluded: accbaab
-excluded: accbaaa
-excluded: bacbcac
-excluded: accbaac
-excluded: acaacaa
-excluded: bccbbba
-excluded: accbaba
-excluded: bccccaa
-excluded: cccbbaa
-excluded: cccaabb
-excluded: cccaaba
-excluded: acbbcbb
-excluded: baccbaa
-excluded: cacaabb
-excluded: accbcba
-excluded: accaaaa
-excluded: accabcb
-excluded: baccbab
-excluded: accaaac
-excluded: bccacba
-excluded: aabccaa
-excluded: aabaacb
-excluded: cacbbaa
-excluded: cacbbab
-excluded: cacbbac
-excluded: aaccaca
-excluded: aaccbca
-excluded: aaccaaa
-excluded: aaccbcb
-excluded: cacaaac
-excluded: baccbba
-excluded: cacaaab
-excluded: cacaaaa
-excluded: cacabca
-excluded: bacbacb
-excluded: accbbaa
-excluded: accaaba
-excluded: accaabb
-excluded: accbbac
-excluded: accbbab
-excluded: accaaca
-excluded: cacbcba
-excluded: bccacab
-excluded: bccacaa
-excluded: babaccb
-excluded: aaccbba
-excluded: cabbcaa
-excluded: accabac
-excluded: bacaaca
-excluded: bacccaa
-excluded: accabaa
-excluded: accabab
-excluded: bccbcaa
-excluded: bccabba
-excluded: cacbbca
-excluded: cacbaaa
-excluded: aabbcbb
-excluded: cbacaca
-excluded: aababcb
-excluded: babbcca
-excluded: cccacaa
-excluded: babbbac
-excluded: babaabc
-excluded: aacbabc
-excluded: aaccbab
-excluded: bacccba
-excluded: bacbbca
-excluded: accabba
-excluded: accabbb
-excluded: accbcab
-excluded: accbcaa
-excluded: bccabaa
-excluded: aabbcca
-excluded: cacccaa
-excluded: aabbccc
-excluded: bccabac
-excluded: bccabab
-excluded: acbacaa
-excluded: aaaccac
-excluded: cabaabc
-excluded: aaaccab
-excluded: aaaaacc
-excluded: aaaccaa
-excluded: cbabacb
-excluded: bcabcca
-excluded: cbacbba
-excluded: accacaa
-excluded: aabcaac
-excluded: bcabcbc
-excluded: bbbacab
-excluded: caaacab
-excluded: caaacaa
-excluded: bcabcba
-excluded: aabcbcc
-excluded: bcbcaaa
-excluded: cababcc
-excluded: bcbcbab
-excluded: aaaccbc
-excluded: aaabaac
-excluded: aaabbcc
-excluded: aaaccbb
-excluded: aaabbcb
-excluded: aabcacb
-excluded: cbacaaa
-excluded: accacba
-excluded: caccbaa
-excluded: caaacbb
-excluded: bcbbaca
-excluded: bbcabba
-excluded: aaaabcc
-excluded: cabbaab
-excluded: cbaccba
-excluded: bcaccba
-excluded: bcabbca
-excluded: bcaaacc
-excluded: bcaccaa
-excluded: cbbcaba
-excluded: bbcabaa
-excluded: bbcabab
-excluded: bbcacca
-excluded: aaabbac
-excluded: bcbcaab
-excluded: aaabccc
-excluded: cabaacc
-excluded: cabccaa
-excluded: aaabccb
-excluded: cabccab
-excluded: bcacbaa
-excluded: cbababa
-excluded: cbacbaa
-excluded: cbababb
-excluded: cbacbac
-excluded: caccaaa
-excluded: caccaab
-excluded: aabbacc
-excluded: aabcbbc
-excluded: caabcac
-excluded: caabcab
-excluded: cbabaca
-excluded: bcabaab
-excluded: bcbcabb
-excluded: bbcacba
-excluded: cabcbba
-excluded: abacabc
-excluded: bcbbbaa
-excluded: bcbaabb
-excluded: bcbaaba
-excluded: bcbbbac
-excluded: bcbbbab
-excluded: bacacab
-excluded: caabcba
-excluded: bcaacaa
-excluded: cbbcbba
-excluded: bbcacab
-excluded: bbcacaa
-excluded: cabcbaa
-excluded: bcbaaaa
-excluded: bcbbcba
-excluded: aaacabc
-excluded: cbaaacc
-excluded: cbaccab
-excluded: cbaccaa
-excluded: bccbaca
-excluded: bacacba
-excluded: caabcca
-excluded: bccbaba
-excluded: cbbcaac
-excluded: cbbcaaa
-excluded: caabbab
-excluded: caaaabc
-excluded: bcaacba
-excluded: aaacacc
-excluded: bcbbaab
-excluded: bcbccba
-excluded: bcbbaaa
-excluded: aaacbac
-excluded: cbaabba
-excluded: cbabcaa
-excluded: cbbbaac
-excluded: cbbbaab
-excluded: aabcacc
-excluded: caaccaa
-excluded: bcaabaa
-excluded: caabbbc
-excluded: abaccca
-excluded: abacccb
-excluded: bcbccaa
-excluded: cbccaba
-excluded: bcbbbbb
-excluded: aaacbbc
-excluded: bcaabca
-excluded: cbaaaac
-excluded: caabbcb
-excluded: bcccaaa
-excluded: bcaabbc
-excluded: cbbcbaa
-excluded: cbbbabc
-excluded: bcabcaa
-excluded: caaccbb
-excluded: cbccaab
-excluded: cbccaaa
-excluded: cbaacbb
-excluded: baacabb
-excluded: caababc
-excluded: bbbcbaa
-excluded: cbbaabb
-excluded: ccacbba
-excluded: ccabaca
-excluded: cbcbaca
-excluded: cbaacca
-excluded: bbbccba
-excluded: bbbbbcb
-excluded: caabacc
-excluded: bbbbaac
-excluded: cbbbbba
-excluded: cbbccaa
-excluded: caacbba
-excluded: cbbbbbb
-excluded: cbbaaca
-excluded: abcacaa
-excluded: abcacab
-excluded: ccacbaa
-excluded: ccacbab
-excluded: bbccaba
-excluded: bbaaccb
-excluded: bbaaccc
-excluded: cbccbab
-excluded: bbaabac
-excluded: cbbbcaa
-excluded: bbbccab
-excluded: bbbccaa
-excluded: bbbbbbc
-excluded: caacaab
-excluded: caacaac
-excluded: abaabcb
-excluded: ababcba
-excluded: bbccaac
-excluded: ccabaab
-excluded: abcacbc
-excluded: bbccaab
-excluded: ccabaaa
-excluded: bbccaaa
-excluded: ccabbca
-excluded: cbcccba
-excluded: cbcbaaa
-excluded: cbaacab
-excluded: baacacc
-excluded: cbbaaab
-excluded: cbbaaac
-excluded: ccaccab
-excluded: ccabbba
-excluded: cbcccaa
-excluded: bcacbba
-excluded: bcabaca
-excluded: ccbcaaa
-excluded: bbbbcba
-excluded: bbbbcbb
-excluded: caacacb
-excluded: bcacbac
-excluded: bcacbab
-excluded: abaaccc
-excluded: abaaccb
-excluded: abcbcaa
-excluded: abcbcab
-excluded: bbccbab
-excluded: bbccbaa
-excluded: abcbcac
-excluded: bbcbaba
-excluded: cbcaabb
-excluded: cbcbbab
-excluded: cbcbcca
-excluded: bcacaab
-excluded: bcacaaa
-excluded: bcacbcb
-excluded: ccbcabb
-excluded: ccbcaca
-excluded: cbbabaa
-excluded: bbbbcaa
-excluded: abaacbb
-excluded: abcbcba
-excluded: bbcbaab
-excluded: bbcccba
-excluded: cbcaaac
-excluded: bcacabb
-excluded: bbbabac
-excluded: bcacaac
-excluded: abcbbaa
-excluded: abcbccb
-excluded: abcbbab
-excluded: abcbbac
-excluded: bbcbbbb
-excluded: bbcaaca
-excluded: ccacaba
-excluded: cbcbcaa
-excluded: ccacabb
-excluded: abbacca
-excluded: cbbacac
-excluded: cbbacaa
-excluded: abcaaca
-excluded: abcbbba
-excluded: bbcbbaa
-excluded: bbcaabb
-excluded: ccacaac
-excluded: cbcabaa
-excluded: cbcabab
-excluded: acbcaca
-excluded: abbbcaa
-excluded: ccbaacb
-excluded: ccbbbba
-excluded: ccbaaca
-excluded: acacbab
-excluded: ccbccaa
-excluded: acacbaa
-excluded: abcccba
-excluded: ccccaaa
-excluded: babccba
-excluded: babbaac
-excluded: ccaacba
-excluded: acbcabc
-excluded: acbcaba
-excluded: abcbaca
-excluded: ccbbaab
-excluded: baaaccc
-excluded: ccbbaaa
-excluded: abbabcc
-excluded: ccbccba
-excluded: acabbcc
-excluded: acaccba
-excluded: abccbaa
-excluded: babaacb
-excluded: ccccaba
-excluded: abccbac
-excluded: babccaa
-excluded: cbcacaa
-excluded: cbcacab
-excluded: abccbca
-excluded: baccaab
-excluded: ccbbabc
-excluded: acacbcb
-excluded: ccbcbaa
-excluded: acacbcc
-excluded: abccbba
-excluded: babcbba
-excluded: abccaba
-excluded: abbaacc
-excluded: abbccac
-excluded: abbccaa
-excluded: ccbcbba
-excluded: acabacb
-excluded: acacbbc
-excluded: abccaaa
-excluded: abccaab
-excluded: acbcbaa
-excluded: acbbaba
-excluded: bbacbab
-excluded: bbacbaa
-excluded: aacbcab
-excluded: abccacb
-excluded: ccbabaa
-excluded: ccbacca
-excluded: baabbcb
-excluded: acaabcb
-excluded: baaccba
-excluded: abccabb
-excluded: ccaaabb
-excluded: ccabbaa
-excluded: ccaaaba
-excluded: aacacca
-excluded: ccbbcaa
-excluded: ccbabbb
-excluded: abbcbab
-excluded: baabbbc
-excluded: acaaccb
-excluded: bbbcabc
-excluded: abbcbba
-excluded: cccbaab
-excluded: ccaaaaa
-excluded: ccabcba
-excluded: acbccab
-excluded: acbccaa
-excluded: ccaaaab
-excluded: acbcaaa
-excluded: aacacbb
-excluded: ccbaaab
-excluded: ccbbcba
-excluded: abbbacc
-excluded: baabacc
-excluded: baabacb
-excluded: acaccaa
-excluded: bbbcaba
-excluded: ccbaaac
-excluded: acaaabc
-excluded: bbbcaab
-excluded: bbbcaac
-excluded: ccccbaa
-excluded: ccaabba
-excluded: ccabcab
-excluded: ccabcaa
-excluded: bbabcca
-excluded: acbbaca
-excluded: aacacab
-excluded: ccbbbab
-excluded: ccbbbaa
-excluded: ccbaaba
-excluded: abbcaac
-excluded: baaccca
-excluded: bbbcbca
-excluded: acabcca
-excluded: bbbcbbb
-excluded: acaabcc
-excluded: bbbbacb
-excluded: acbcbab
-excluded: acbabca
-excluded: aacccba
-excluded: abbcabc
-excluded: acccbab
-excluded: acccbaa
-excluded: bacabcb
-excluded: bacbcba
-excluded: bccbbab
-excluded: bccaabb
-excluded: aabaccc
-excluded: bccaaba
-excluded: aabaccb
-excluded: bccbbac
-excluded: abbcaca
-excluded: acbbcac
-excluded: cccabab
-excluded: acbbcab
-excluded: cccabaa
-excluded: acbbcaa
-excluded: aacccab
-excluded: bcbacaa
-excluded: aacccaa
-excluded: cacacaa
-excluded: bacaabc
-excluded: bacbbaa
-excluded: bacbbac
-excluded: aabbcac
-excluded: bccaaaa
-excluded: acccaaa
-excluded: acbaccc
-excluded: acbabab
-excluded: cccbcaa
-excluded: acbacca
-excluded: acbaacb
-excluded: bcbabba
-excluded: bcbbcab
-excluded: bcbbcaa
-excluded: cacabbc
-excluded: accccaa
-excluded: accaacb
-excluded: accbbba
-excluded: bacacca
-excluded: ccbacaa
-excluded: accccab
-excluded: bccbaab
-excluded: bccbaaa
-excluded: cacbcaa
-excluded: cccaaaa
-excluded: acbbbac
-excluded: cccaaab
-excluded: acbbbaa
-excluded: bcbabab
-excluded: bcbabaa
-excluded: aacaaab
-excluded: aacbcbb
-excluded: aacabcc
-excluded: ccbacba
-excluded: cacabaa
-excluded: bacbcaa
-excluded: accbaab
-excluded: accbaaa
-excluded: bacbcac
-excluded: accbaac
-excluded: acaacaa
-excluded: bccbbba
-excluded: accbaba
-excluded: bccccaa
-excluded: cccbbaa
-excluded: cccaabb
-excluded: cccaaba
-excluded: acbbcbb
-excluded: baccbaa
-excluded: cacaabb
-excluded: accbcba
-excluded: accaaaa
-excluded: accabcb
-excluded: baccbab
-excluded: accaaac
-excluded: bccacba
-excluded: aabccaa
-excluded: aabaacb
-excluded: cacbbaa
-excluded: cacbbab
-excluded: cacbbac
-excluded: aaccaca
-excluded: aaccbca
-excluded: aaccaaa
-excluded: aaccbcb
-excluded: cacaaac
-excluded: baccbba
-excluded: cacaaab
-excluded: cacaaaa
-excluded: cacabca
-excluded: bacbacb
-excluded: accbbaa
-excluded: accaaba
-excluded: accaabb
-excluded: accbbac
-excluded: accbbab
-excluded: accaaca
-excluded: cacbcba
-excluded: bccacab
-excluded: bccacaa
-excluded: babaccb
-excluded: aaccbba
-excluded: cabbcaa
-excluded: accabac
-excluded: bacaaca
-excluded: bacccaa
-excluded: accabaa
-excluded: accabab
-excluded: bccbcaa
-excluded: bccabba
-excluded: cacbbca
-excluded: cacbaaa
-excluded: aabbcbb
-excluded: cbacaca
-excluded: aababcb
-excluded: babbcca
-excluded: cccacaa
-excluded: babbbac
-excluded: babaabc
-excluded: aacbabc
-excluded: aaccbab
-excluded: bacccba
-excluded: bacbbca
-excluded: accabba
-excluded: accabbb
-excluded: accbcab
-excluded: accbcaa
-excluded: bccabaa
-excluded: aabbcca
-excluded: cacccaa
-excluded: aabbccc
-excluded: bccabac
-excluded: bccabab
-excluded: acbacaa
-excluded: aaaccac
-excluded: cabaabc
-excluded: aaaccab
-excluded: aaaaacc
-excluded: aaaccaa
-excluded: cbabacb
-excluded: bcabcca
-excluded: cbacbba
-excluded: accacaa
-excluded: aabcaac
-excluded: bcabcbc
-excluded: bbbacab
-excluded: caaacab
-excluded: caaacaa
-excluded: bcabcba
-excluded: aabcbcc
-excluded: bcbcaaa
-excluded: cababcc
-excluded: bcbcbab
-excluded: aaaccbc
-excluded: aaabaac
-excluded: aaabbcc
-excluded: aaaccbb
-excluded: aaabbcb
-excluded: aabcacb
-excluded: cbacaaa
-excluded: accacba
-excluded: caccbaa
-excluded: caaacbb
-excluded: bcbbaca
-excluded: bbcabba
-excluded: aaaabcc
-excluded: cabbaab
-excluded: cbaccba
-excluded: bcaccba
-excluded: bcabbca
-excluded: bcaaacc
-excluded: bcaccaa
-excluded: cbbcaba
-excluded: bbcabaa
-excluded: bbcabab
-excluded: bbcacca
-excluded: aaabbac
-excluded: bcbcaab
-excluded: aaabccc
-excluded: cabaacc
-excluded: cabccaa
-excluded: aaabccb
-excluded: cabccab
-excluded: bcacbaa
-excluded: cbababa
-excluded: cbacbaa
-excluded: cbababb
-excluded: cbacbac
-excluded: caccaaa
-excluded: caccaab
-excluded: aabbacc
-excluded: aabcbbc
-excluded: caabcac
-excluded: caabcab
-excluded: cbabaca
-excluded: bcabaab
-excluded: bcbcabb
-excluded: bbcacba
-excluded: cabcbba
-excluded: abacabc
-excluded: bcbbbaa
-excluded: bcbaabb
-excluded: bcbaaba
-excluded: bcbbbac
-excluded: bcbbbab
-excluded: bacacab
-excluded: caabcba
-excluded: bcaacaa
-excluded: cbbcbba
-excluded: bbcacab
-excluded: bbcacaa
-excluded: cabcbaa
-excluded: bcbaaaa
-excluded: bcbbcba
-excluded: aaacabc
-excluded: cbaaacc
-excluded: cbaccab
-excluded: cbaccaa
-excluded: bccbaca
-excluded: bacacba
-excluded: caabcca
-excluded: bccbaba
-excluded: cbbcaac
-excluded: cbbcaaa
-excluded: caabbab
-excluded: caaaabc
-excluded: bcaacba
-excluded: aaacacc
-excluded: bcbbaab
-excluded: bcbccba
-excluded: bcbbaaa
-excluded: aaacbac
-excluded: cbaabba
-excluded: cbabcaa
-excluded: cbbbaac
-excluded: cbbbaab
-excluded: aabcacc
-excluded: caaccaa
-excluded: bcaabaa
-excluded: caabbbc
-excluded: abaccca
-excluded: abacccb
-excluded: bcbccaa
-excluded: cbccaba
-excluded: bcbbbbb
-excluded: aaacbbc
-excluded: bcaabca
-excluded: cbaaaac
-excluded: caabbcb
-excluded: bcccaaa
-excluded: bcaabbc
-excluded: cbbcbaa
-excluded: cbbbabc
-excluded: bcabcaa
-excluded: caaccbb
-excluded: cbccaab
-excluded: cbccaaa
-excluded: cbaacbb
-excluded: baacabb
-excluded: caababc
-excluded: bbbcbaa
-excluded: cbbaabb
-excluded: ccacbba
-excluded: ccabaca
-excluded: cbcbaca
-excluded: cbaacca
-excluded: bbbccba
-excluded: bbbbbcb
-excluded: caabacc
-excluded: bbbbaac
-excluded: cbbbbba
-excluded: cbbccaa
-excluded: caacbba
-excluded: cbbbbbb
-excluded: cbbaaca
-excluded: abcacaa
-excluded: abcacab
-excluded: ccacbaa
-excluded: ccacbab
-excluded: bbccaba
-excluded: bbaaccb
-excluded: bbaaccc
-excluded: cbccbab
-excluded: bbaabac
-excluded: cbbbcaa
-excluded: bbbccab
-excluded: bbbccaa
-excluded: bbbbbbc
-excluded: caacaab
-excluded: caacaac
-excluded: abaabcb
-excluded: ababcba
-excluded: bbccaac
-excluded: ccabaab
-excluded: abcacbc
-excluded: bbccaab
-excluded: ccabaaa
-excluded: bbccaaa
-excluded: ccabbca
-excluded: cbcccba
-excluded: cbcbaaa
-excluded: cbaacab
-excluded: baacacc
-excluded: cbbaaab
-excluded: cbbaaac
-excluded: ccaccab
-excluded: ccabbba
-excluded: cbcccaa
-excluded: bcacbba
-excluded: bcabaca
-excluded: ccbcaaa
-excluded: bbbbcba
-excluded: bbbbcbb
-excluded: caacacb
-excluded: bcacbac
-excluded: bcacbab
-excluded: abaaccc
-excluded: abaaccb
-excluded: abcbcaa
-excluded: abcbcab
-excluded: bbccbab
-excluded: bbccbaa
-excluded: abcbcac
-excluded: bbcbaba
-excluded: cbcaabb
-excluded: cbcbbab
-excluded: cbcbcca
-excluded: bcacaab
-excluded: bcacaaa
-excluded: bcacbcb
-excluded: ccbcabb
-excluded: ccbcaca
-excluded: cbbabaa
-excluded: bbbbcaa
-excluded: abaacbb
-excluded: abcbcba
-excluded: bbcbaab
-excluded: bbcccba
-excluded: cbcaaac
-excluded: bcacabb
-excluded: bbbabac
-excluded: bcacaac
-excluded: abcbbaa
-excluded: abcbccb
-excluded: abcbbab
-excluded: abcbbac
-excluded: bbcbbbb
-excluded: bbcaaca
-excluded: ccacaba
-excluded: cbcbcaa
-excluded: ccacabb
-excluded: abbacca
-excluded: cbbacac
-excluded: cbbacaa
-excluded: abcaaca
-excluded: abcbbba
-excluded: bbcbbaa
-excluded: bbcaabb
-excluded: ccacaac
+excluded: cccbaaa
+excluded: bccbbaa
+excluded: bcbcbaa
+excluded: bbcbcaa
+excluded: bcccbaa
+excluded: cbccbaa
+excluded: cbcbbaa
+excluded: bbcccaa
+excluded: abcccaa
+excluded: cccbaaa
+excluded: bccbbaa
+excluded: bcbcbaa
+excluded: bbcbcaa
+excluded: bcccbaa
+excluded: cbccbaa
+excluded: cbcbbaa
+excluded: bbcccaa
+excluded: abcccaa
+excluded: cccbaaa
+excluded: bccbbaa
+excluded: bcbcbaa
+excluded: bbcbcaa
+excluded: bcccbaa
+excluded: cbccbaa
+excluded: cbcbbaa
+excluded: bbcccaa
+excluded: abcccaa
+excluded: cccbaaa
+excluded: bccbbaa
+excluded: bcbcbaa
+excluded: bbcbcaa
+excluded: bcccbaa
+excluded: cbccbaa
+excluded: cbcbbaa
+excluded: bbcccaa
+excluded: abcccaa
+excluded: cccbaaa
+excluded: bccbbaa
+excluded: bcbcbaa
+excluded: bbcbcaa
+excluded: bcccbaa
+excluded: cbccbaa
+excluded: cbcbbaa
+excluded: bbcccaa
+excluded: abcccaa
 "","BalusC","Marc Gravell","Jon Skeet","Hans Passant","Darin Dimitrov"
-"aaaaacc",0.0,0.0,0.0,0.2606267225413052,0.0
+"aaaaacc",0.0,0.0,0.0,0.08821739687219583,0.0
 "aaaabcc",0.0,0.0,0.0,0.0,0.0869676152761377
 "aaabaac",0.0,0.0,0.0,0.0,0.0869676152761377
 "aaabbac",0.0,0.0,0.0,0.0,0.0869676152761377
-"aaabbcb",0.0,0.0,0.0,0.08687557418043507,0.0
+"aaabbcb",0.0,0.0,0.0,0.08821739687219583,0.0
 "aaabbcc",0.0,0.04790263482976461,0.0,0.0,0.04951270206515967
 "aaabccb",0.0,0.0,0.0,0.0,0.0869676152761377
-"aaabccc",0.0,0.0,0.0,0.08687557418043507,0.0
+"aaabccc",0.0,0.0,0.0,0.08821739687219583,0.0
 "aaacabc",0.0,0.0,0.0,0.0,0.0869676152761377
 "aaacacc",0.0,0.0,0.0,0.0,0.0869676152761377
 "aaacbac",0.0,0.0841395791953704,0.0,0.0,0.0
-"aaacbbc",0.0,0.0,0.0,0.08687557418043507,0.0
-"aaaccaa",0.0,0.0,0.0,0.08687557418043507,0.0
+"aaacbbc",0.0,0.0,0.0,0.08821739687219583,0.0
 "aaaccab",0.0,0.0,0.0,0.0,0.0869676152761377
 "aaaccac",0.0,0.0841395791953704,0.0,0.0,0.0
-"aaaccbb",0.0,0.0,0.0,0.17375114836087013,0.0
+"aaaccbb",0.0,0.0,0.0,0.17643479374439167,0.0
 "aaaccbc",0.0,0.0,0.0997102360059741,0.0,0.0
 "aabaacb",0.0,0.0,0.0,0.0,0.0869676152761377
-"aababcb",0.0,0.0,0.0,0.08687557418043507,0.0
+"aababcb",0.0,0.0,0.0,0.08821739687219583,0.0
 "aabaccb",0.0,0.0,0.0,0.0,0.1739352305522754
-"aabaccc",0.0,0.0,0.0,0.0989206018235111,0.04951270206515967
+"aabaccc",0.0,0.0,0.0,0.10044846405016804,0.04951270206515967
 "aabbacc",0.0,0.0,0.0,0.0,0.0869676152761377
 "aabbcac",0.0,0.0841395791953704,0.0,0.0,0.0
 "aabbcbb",0.0,0.0,0.0,0.0,0.0869676152761377
-"aabbcca",0.0,0.0,0.0,0.08687557418043507,0.0
+"aabbcca",0.0,0.0,0.0,0.08821739687219583,0.0
 "aabbccc",0.0,0.0,0.0,0.0,0.1739352305522754
-"aabcaac",0.0,0.0,0.0,0.08687557418043507,0.0
+"aabcaac",0.0,0.0,0.0,0.08821739687219583,0.0
 "aabcacb",0.0,0.0,0.0,0.0,0.0869676152761377
 "aabcacc",0.0,0.0,0.0,0.0,0.0869676152761377
 "aabcbbc",0.0,0.0841395791953704,0.0,0.0,0.0
@@ -3788,32 +1478,32 @@ excluded: ccacaac
 "aacaaab",0.0,0.0,0.0,0.0,0.0869676152761377
 "aacabcc",0.0,0.0841395791953704,0.0,0.0,0.0
 "aacacab",0.0,0.0,0.0997102360059741,0.0,0.0
-"aacacbb",0.0,0.0,0.0,0.08687557418043507,0.0
-"aacacca",0.0,0.0,0.0,0.08687557418043507,0.0
+"aacacbb",0.0,0.0,0.0,0.08821739687219583,0.0
+"aacacca",0.0,0.0,0.0,0.08821739687219583,0.0
 "aacbabc",0.0,0.0,0.0997102360059741,0.0,0.0
 "aacbcab",0.0,0.0841395791953704,0.0,0.0,0.0
-"aacbcbb",0.0,0.026705381235166435,0.0,0.027573769095343367,0.027602982368972098
+"aacbcbb",0.0,0.026705381235166435,0.0,0.027999655305806375,0.027602982368972098
 "aaccaaa",0.0,0.0,0.0,0.0,0.0869676152761377
-"aaccaca",0.0,0.0,0.0,0.08687557418043507,0.0
+"aaccaca",0.0,0.0,0.0,0.08821739687219583,0.0
 "aaccbab",0.0,0.0,0.0997102360059741,0.0,0.0
 "aaccbba",0.0,0.0841395791953704,0.0,0.0,0.0
-"aaccbca",0.0,0.0,0.0,0.08687557418043507,0.0
+"aaccbca",0.0,0.0,0.0,0.08821739687219583,0.0
 "aaccbcb",0.13430464161924055,0.0,0.0,0.0,0.0
-"aacccaa",0.0,0.0,0.0,0.08687557418043507,0.0
+"aacccaa",0.0,0.0,0.0,0.08821739687219583,0.0
 "aacccab",0.0,0.0,0.0997102360059741,0.0,0.0
-"aacccba",0.0,0.0,0.0,0.08687557418043507,0.0
-"abaabcb",0.0,0.0,0.0,0.08687557418043507,0.0
-"abaacbb",0.0,0.0,0.05676737475823546,0.04946030091175555,0.0
+"aacccba",0.0,0.0,0.0,0.08821739687219583,0.0
+"abaabcb",0.0,0.0,0.0,0.08821739687219583,0.0
+"abaacbb",0.0,0.0,0.05676737475823546,0.05022423202508402,0.0
 "abaaccb",0.0,0.0841395791953704,0.0,0.0,0.0
 "abaaccc",0.0,0.0,0.0,0.0,0.0869676152761377
 "ababcba",0.0,0.0,0.05676737475823546,0.0,0.04951270206515967
 "abacabc",0.0,0.0841395791953704,0.0,0.0,0.0
 "abaccca",0.0,0.0841395791953704,0.0,0.0,0.0
 "abacccb",0.0,0.0841395791953704,0.0,0.0,0.0
-"abbaacc",0.0,0.0,0.0,0.08687557418043507,0.0
-"abbabcc",0.0,0.0,0.0,0.08687557418043507,0.0
-"abbacca",0.0,0.0,0.0,0.08687557418043507,0.0
-"abbbacc",0.0,0.0,0.0,0.08687557418043507,0.0
+"abbaacc",0.0,0.0,0.0,0.08821739687219583,0.0
+"abbabcc",0.0,0.0,0.0,0.08821739687219583,0.0
+"abbacca",0.0,0.0,0.0,0.08821739687219583,0.0
+"abbbacc",0.0,0.0,0.0,0.08821739687219583,0.0
 "abbbcaa",0.0,0.0,0.05676737475823546,0.0,0.04951270206515967
 "abbcaac",0.0,0.0841395791953704,0.0,0.0,0.0
 "abbcabc",0.0,0.0,0.0,0.0,0.0869676152761377
@@ -3822,7 +1512,7 @@ excluded: ccacaac
 "abbcbba",0.0,0.0841395791953704,0.0,0.0,0.0
 "abbccaa",0.0,0.0,0.3988409440238964,0.0,0.0
 "abbccac",0.0,0.0,0.0,0.0,0.0869676152761377
-"abcaaca",0.0,0.0,0.0,0.08687557418043507,0.0
+"abcaaca",0.0,0.0,0.0,0.08821739687219583,0.0
 "abcacaa",0.0,0.0,0.0997102360059741,0.0,0.0
 "abcacab",0.0,0.0841395791953704,0.0,0.0,0.0
 "abcacbc",0.0,0.0,0.0997102360059741,0.0,0.0
@@ -3833,11 +1523,11 @@ excluded: ccacaac
 "abcbbba",0.0,0.0,0.0,0.0,0.0869676152761377
 "abcbcaa",0.0,0.0,0.1703021242747064,0.0,0.04951270206515967
 "abcbcab",0.07646278083338544,0.0,0.0,0.0,0.04951270206515967
-"abcbcac",0.0,0.04790263482976461,0.0,0.04946030091175555,0.0
+"abcbcac",0.0,0.04790263482976461,0.0,0.05022423202508402,0.0
 "abcbcba",0.0,0.0,0.0997102360059741,0.0,0.0
 "abcbccb",0.0,0.0,0.0,0.0,0.0869676152761377
 "abccaaa",0.0,0.0,0.0997102360059741,0.0,0.0
-"abccaab",0.0,0.026705381235166435,0.03164741125463665,0.05514753819068673,0.0
+"abccaab",0.0,0.026705381235166435,0.03164741125463665,0.05599931061161275,0.0
 "abccaba",0.0,0.04790263482976461,0.0,0.0,0.04951270206515967
 "abccabb",0.07646278083338544,0.0,0.0,0.0,0.04951270206515967
 "abccacb",0.0,0.0841395791953704,0.0,0.0,0.0
@@ -3850,35 +1540,35 @@ excluded: ccacaac
 "acaabcb",0.0,0.0841395791953704,0.0,0.0,0.0
 "acaabcc",0.0,0.0,0.0,0.0,0.0869676152761377
 "acaacaa",0.0,0.0,0.0,0.0,0.0869676152761377
-"acaaccb",0.0,0.0,0.0,0.0989206018235111,0.04951270206515967
-"acabacb",0.0,0.0,0.0,0.08687557418043507,0.0
-"acabbcc",0.0,0.0,0.0,0.08687557418043507,0.0
+"acaaccb",0.0,0.0,0.0,0.10044846405016804,0.04951270206515967
+"acabacb",0.0,0.0,0.0,0.08821739687219583,0.0
+"acabbcc",0.0,0.0,0.0,0.08821739687219583,0.0
 "acabcca",0.0,0.0,0.0,0.0,0.0869676152761377
 "acacbaa",0.0,0.0,0.0,0.0,0.0869676152761377
 "acacbab",0.0,0.0841395791953704,0.0,0.0,0.0
-"acacbbc",0.0,0.0,0.0,0.08687557418043507,0.0
-"acacbcb",0.0,0.0,0.0,0.08687557418043507,0.0
+"acacbbc",0.0,0.0,0.0,0.08821739687219583,0.0
+"acacbcb",0.0,0.0,0.0,0.08821739687219583,0.0
 "acacbcc",0.0,0.0,0.0,0.0,0.0869676152761377
 "acaccaa",0.0,0.0,0.0997102360059741,0.0,0.0
 "acaccba",0.0,0.0,0.0997102360059741,0.0,0.0
 "acbaacb",0.0,0.04790263482976461,0.0,0.0,0.09902540413031934
 "acbabab",0.0,0.0,0.0,0.0,0.0869676152761377
 "acbabca",0.0,0.0,0.0,0.0,0.0869676152761377
-"acbacaa",0.0,0.0,0.0,0.08687557418043507,0.0
+"acbacaa",0.0,0.0,0.0,0.08821739687219583,0.0
 "acbacca",0.0,0.0,0.0,0.0,0.0869676152761377
 "acbaccc",0.0,0.0,0.0,0.0,0.0869676152761377
 "acbbaba",0.0,0.04790263482976461,0.0,0.0,0.04951270206515967
-"acbbaca",0.0,0.0,0.0,0.04946030091175555,0.04951270206515967
+"acbbaca",0.0,0.0,0.0,0.05022423202508402,0.04951270206515967
 "acbbbaa",0.0,0.0,0.0,0.0,0.0869676152761377
 "acbbbac",0.0,0.0841395791953704,0.0,0.0,0.0
 "acbbcaa",0.04262746130172668,0.05341076247033287,0.03164741125463665,0.0,0.0
-"acbbcab",0.0,0.011665690464158813,0.013824513510496838,0.012045027643076049,0.012057788854181652
+"acbbcab",0.0,0.011665690464158813,0.013824513510496838,0.01223106717797221,0.012057788854181652
 "acbbcac",0.0,0.0,0.0997102360059741,0.0,0.0
 "acbbcbb",0.0,0.0,0.0,0.0,0.0869676152761377
 "acbcaaa",0.0,0.0,0.05676737475823546,0.0,0.04951270206515967
 "acbcaba",0.0,0.0,0.0,0.0,0.0869676152761377
-"acbcabc",0.0,0.0,0.0,0.04946030091175555,0.04951270206515967
-"acbcaca",0.0,0.0,0.0,0.08687557418043507,0.0
+"acbcabc",0.0,0.0,0.0,0.05022423202508402,0.04951270206515967
+"acbcaca",0.0,0.0,0.0,0.08821739687219583,0.0
 "acbcbaa",0.0,0.0,0.11353474951647093,0.0,0.04951270206515967
 "acbcbab",0.0,0.0,0.0997102360059741,0.0,0.0
 "acbccaa",0.01862092004753036,0.011665690464158813,0.027649027020993675,0.0,0.012057788854181652
@@ -3886,30 +1576,30 @@ excluded: ccacaac
 "accaaaa",0.0,0.0,0.0,0.0,0.0869676152761377
 "accaaac",0.0,0.0,0.0,0.0,0.0869676152761377
 "accaaba",0.0,0.0841395791953704,0.0,0.0,0.0
-"accaabb",0.0,0.0,0.0,0.04946030091175555,0.04951270206515967
+"accaabb",0.0,0.0,0.0,0.05022423202508402,0.04951270206515967
 "accaaca",0.0,0.04790263482976461,0.05676737475823546,0.0,0.0
-"accaacb",0.0,0.0,0.0,0.08687557418043507,0.0
+"accaacb",0.0,0.0,0.0,0.08821739687219583,0.0
 "accabaa",0.13430464161924055,0.0,0.0,0.0,0.0
 "accabab",0.0,0.0,0.11353474951647093,0.0,0.04951270206515967
 "accabac",0.0,0.0841395791953704,0.0,0.0,0.0
-"accabba",0.0,0.04790263482976461,0.0,0.0989206018235111,0.0
+"accabba",0.0,0.04790263482976461,0.0,0.10044846405016804,0.0
 "accabbb",0.0,0.04790263482976461,0.0,0.0,0.04951270206515967
 "accabcb",0.0,0.0,0.0,0.0,0.0869676152761377
-"accacaa",0.0,0.026705381235166435,0.03164741125463665,0.027573769095343367,0.0
-"accacba",0.0,0.0,0.0,0.04946030091175555,0.04951270206515967
+"accacaa",0.0,0.026705381235166435,0.03164741125463665,0.027999655305806375,0.0
+"accacba",0.0,0.0,0.0,0.05022423202508402,0.04951270206515967
 "accbaaa",0.0,0.0,0.0,0.0,0.0869676152761377
 "accbaab",0.2686092832384811,0.0,0.0,0.0,0.0
 "accbaac",0.13430464161924055,0.0,0.0,0.0,0.0
-"accbaba",0.0,0.0,0.0,0.17375114836087013,0.0
-"accbbaa",0.01862092004753036,0.011665690464158813,0.041473540531490515,0.012045027643076049,0.0
+"accbaba",0.0,0.0,0.0,0.17643479374439167,0.0
+"accbbaa",0.01862092004753036,0.011665690464158813,0.041473540531490515,0.01223106717797221,0.0
 "accbbab",0.0,0.0,0.0,0.0,0.0869676152761377
 "accbbac",0.13430464161924055,0.0,0.0,0.0,0.0
 "accbbba",0.0,0.0,0.0,0.0,0.0869676152761377
 "accbcaa",0.0,0.0,0.0997102360059741,0.0,0.0
-"accbcab",0.0,0.0,0.0,0.08687557418043507,0.0
-"accbcba",0.07646278083338544,0.0,0.0,0.04946030091175555,0.0
+"accbcab",0.0,0.0,0.0,0.08821739687219583,0.0
+"accbcba",0.07646278083338544,0.0,0.0,0.05022423202508402,0.0
 "acccaaa",0.0,0.0,0.05676737475823546,0.0,0.09902540413031934
-"acccbaa",0.05586276014259108,0.011665690464158813,0.041473540531490515,0.012045027643076049,0.0
+"acccbaa",0.05586276014259108,0.011665690464158813,0.041473540531490515,0.01223106717797221,0.0
 "acccbab",0.0,0.0,0.0,0.0,0.0869676152761377
 "accccaa",0.04262746130172668,0.026705381235166435,0.09494223376390996,0.0,0.0
 "accccab",0.0,0.0841395791953704,0.0,0.0,0.0
@@ -3935,7 +1625,7 @@ excluded: ccacaac
 "bacaaca",0.0,0.0,0.0,0.0,0.0869676152761377
 "bacabcb",0.0,0.0,0.0,0.0,0.0869676152761377
 "bacacab",0.0,0.0,0.0,0.0,0.0869676152761377
-"bacacba",0.0,0.0,0.0,0.08687557418043507,0.0
+"bacacba",0.0,0.0,0.0,0.08821739687219583,0.0
 "bacacca",0.0,0.0841395791953704,0.0,0.0,0.0
 "bacbacb",0.0,0.0,0.0,0.0,0.0869676152761377
 "bacbbaa",0.0,0.0,0.0997102360059741,0.0,0.0
@@ -3946,76 +1636,78 @@ excluded: ccacaac
 "bacbcba",0.0,0.0,0.0,0.0,0.0869676152761377
 "baccaab",0.0,0.0841395791953704,0.0,0.0,0.0
 "baccbaa",0.13430464161924055,0.0,0.0,0.0,0.0
-"baccbab",0.0,0.0,0.0,0.08687557418043507,0.0
-"baccbba",0.07646278083338544,0.0,0.0,0.04946030091175555,0.0
+"baccbab",0.0,0.0,0.0,0.08821739687219583,0.0
+"baccbba",0.07646278083338544,0.0,0.0,0.05022423202508402,0.0
 "bacccaa",0.15292556166677088,0.09580526965952922,0.0,0.0,0.0
 "bacccba",0.0,0.0841395791953704,0.0,0.0,0.0
 "bbaabac",0.0,0.0,0.0,0.0,0.0869676152761377
 "bbaaccb",0.0,0.0,0.0,0.0,0.0869676152761377
-"bbaaccc",0.0,0.0,0.0,0.08687557418043507,0.0
+"bbaaccc",0.0,0.0,0.0,0.08821739687219583,0.0
 "bbabcca",0.0,0.0,0.0,0.0,0.0869676152761377
 "bbacbaa",0.13430464161924055,0.0,0.0,0.0,0.0
 "bbacbab",0.0,0.0,0.0997102360059741,0.0,0.0
-"bbbabac",0.0,0.0,0.0,0.04946030091175555,0.04951270206515967
-"bbbacab",0.0,0.0,0.0,0.04946030091175555,0.04951270206515967
+"bbbabac",0.0,0.0,0.0,0.05022423202508402,0.04951270206515967
+"bbbacab",0.0,0.0,0.0,0.05022423202508402,0.04951270206515967
 "bbbbaac",0.0,0.0,0.0,0.0,0.0869676152761377
-"bbbbacb",0.0,0.0,0.0,0.08687557418043507,0.0
-"bbbbbbc",0.0,0.0,0.0,0.0989206018235111,0.04951270206515967
-"bbbbbcb",0.0,0.0,0.0,0.04946030091175555,0.04951270206515967
-"bbbbcaa",0.07646278083338544,0.0,0.0,0.04946030091175555,0.0
+"bbbbacb",0.0,0.0,0.0,0.08821739687219583,0.0
+"bbbbbbc",0.0,0.0,0.0,0.10044846405016804,0.04951270206515967
+"bbbbbcb",0.0,0.0,0.0,0.05022423202508402,0.04951270206515967
+"bbbbbcc",0.0,0.0,0.0,0.17643479374439167,0.0
+"bbbbcaa",0.07646278083338544,0.0,0.0,0.05022423202508402,0.0
 "bbbbcba",0.0,0.0841395791953704,0.0,0.0,0.0
-"bbbbcbb",0.0,0.0,0.0,0.08687557418043507,0.0
-"bbbcaab",0.0,0.0,0.0,0.08687557418043507,0.0
+"bbbbcbb",0.0,0.0,0.0,0.08821739687219583,0.0
+"bbbcaab",0.0,0.0,0.0,0.08821739687219583,0.0
 "bbbcaac",0.0,0.0,0.0,0.0,0.0869676152761377
 "bbbcaba",0.0,0.0841395791953704,0.0,0.0,0.0
 "bbbcabc",0.0,0.0,0.0,0.0,0.0869676152761377
 "bbbcbaa",0.22938834250015636,0.04790263482976461,0.0,0.0,0.0
-"bbbcbbb",0.0,0.0,0.0,0.04946030091175555,0.04951270206515967
+"bbbcbbb",0.0,0.0,0.0,0.05022423202508402,0.04951270206515967
 "bbbcbca",0.0,0.0,0.0,0.0,0.0869676152761377
-"bbbccaa",0.01862092004753036,0.0,0.0691225675524842,0.012045027643076049,0.012057788854181652
+"bbbccaa",0.01862092004753036,0.0,0.0691225675524842,0.01223106717797221,0.012057788854181652
 "bbbccab",0.0,0.0841395791953704,0.0,0.0,0.0
 "bbbccba",0.0,0.0,0.1994204720119482,0.0,0.0
+"bbbccbb",0.0,0.0,0.0,0.08821739687219583,0.0
 "bbcaabb",0.0,0.0,0.0,0.0,0.0869676152761377
 "bbcaaca",0.0,0.0,0.0,0.0,0.1739352305522754
-"bbcabaa",0.0,0.0,0.0,0.08687557418043507,0.0
+"bbcabaa",0.0,0.0,0.0,0.08821739687219583,0.0
 "bbcabab",0.0,0.0841395791953704,0.0,0.0,0.0
 "bbcabba",0.0,0.0,0.0,0.0,0.1739352305522754
 "bbcacaa",0.04262746130172668,0.026705381235166435,0.03164741125463665,0.0,0.0
-"bbcacab",0.0,0.0,0.0,0.08687557418043507,0.0
+"bbcacab",0.0,0.0,0.0,0.08821739687219583,0.0
 "bbcacba",0.13430464161924055,0.0,0.0,0.0,0.0
-"bbcacca",0.04262746130172668,0.0,0.03164741125463665,0.027573769095343367,0.0
+"bbcacca",0.04262746130172668,0.0,0.03164741125463665,0.027999655305806375,0.0
 "bbcbaab",0.0,0.04790263482976461,0.05676737475823546,0.0,0.0
-"bbcbaba",0.0,0.0,0.0,0.17375114836087013,0.0
+"bbcbaba",0.0,0.0,0.0,0.17643479374439167,0.0
 "bbcbbaa",0.0,0.026705381235166435,0.0632948225092733,0.0,0.027602982368972098
-"bbcbbbb",0.0,0.0,0.0,0.17375114836087013,0.0
+"bbcbbbb",0.0,0.0,0.0,0.17643479374439167,0.0
 "bbccaaa",0.0,0.05341076247033287,0.03164741125463665,0.0,0.027602982368972098
 "bbccaab",0.0,0.09580526965952922,0.05676737475823546,0.0,0.0
 "bbccaac",0.0,0.0,0.0,0.0,0.0869676152761377
 "bbccaba",0.0,0.0841395791953704,0.0,0.0,0.0
-"bbccbaa",0.07448368019012144,0.0,0.041473540531490515,0.012045027643076049,0.012057788854181652
+"bbccbaa",0.07448368019012144,0.0,0.041473540531490515,0.01223106717797221,0.012057788854181652
 "bbccbab",0.0,0.0841395791953704,0.0,0.0,0.0
 "bbcccba",0.07646278083338544,0.0,0.0,0.0,0.04951270206515967
-"bcaaacc",0.0,0.0,0.0,0.08687557418043507,0.0
+"bcaaacc",0.0,0.0,0.0,0.08821739687219583,0.0
 "bcaabaa",0.0,0.0841395791953704,0.0,0.0,0.0
 "bcaabbc",0.0,0.1682791583907408,0.0,0.0,0.0
 "bcaabca",0.0,0.0,0.05676737475823546,0.0,0.04951270206515967
-"bcaacaa",0.0,0.0,0.0,0.08687557418043507,0.0
-"bcaacba",0.0,0.0,0.0,0.08687557418043507,0.0
-"bcabaab",0.0,0.0,0.0,0.08687557418043507,0.0
-"bcabaca",0.0,0.0,0.0,0.08687557418043507,0.0
-"bcabbca",0.0,0.0,0.0,0.08687557418043507,0.0
-"bcabcaa",0.0,0.0,0.0,0.08687557418043507,0.0
+"bcaacaa",0.0,0.0,0.0,0.08821739687219583,0.0
+"bcaacba",0.0,0.0,0.0,0.08821739687219583,0.0
+"bcabaab",0.0,0.0,0.0,0.08821739687219583,0.0
+"bcabaca",0.0,0.0,0.0,0.08821739687219583,0.0
+"bcabbca",0.0,0.0,0.0,0.08821739687219583,0.0
+"bcabcaa",0.0,0.0,0.0,0.08821739687219583,0.0
 "bcabcba",0.07646278083338544,0.0,0.05676737475823546,0.0,0.0
 "bcabcbc",0.0,0.0,0.0997102360059741,0.0,0.0
 "bcabcca",0.13430464161924055,0.0,0.0,0.0,0.0
 "bcacaaa",0.0,0.0,0.0997102360059741,0.0,0.0
 "bcacaab",0.0,0.0,0.0997102360059741,0.0,0.0
-"bcacaac",0.0,0.0,0.0,0.08687557418043507,0.0
-"bcacabb",0.0,0.04790263482976461,0.0,0.04946030091175555,0.0
+"bcacaac",0.0,0.0,0.0,0.08821739687219583,0.0
+"bcacabb",0.0,0.04790263482976461,0.0,0.05022423202508402,0.0
 "bcacbaa",0.07646278083338544,0.0,0.05676737475823546,0.0,0.0
-"bcacbab",0.0,0.0,0.0,0.08687557418043507,0.0
+"bcacbab",0.0,0.0,0.0,0.08821739687219583,0.0
 "bcacbac",0.0,0.1682791583907408,0.0,0.0,0.0
-"bcacbba",0.0,0.0,0.0,0.17375114836087013,0.0
+"bcacbba",0.0,0.0,0.0,0.17643479374439167,0.0
 "bcacbcb",0.0,0.0,0.0,0.0,0.0869676152761377
 "bcaccaa",0.13430464161924055,0.0,0.0,0.0,0.0
 "bcaccba",0.13430464161924055,0.0,0.0,0.0,0.0
@@ -4026,50 +1718,49 @@ excluded: ccacaac
 "bcbabab",0.0,0.0,0.0997102360059741,0.0,0.0
 "bcbabba",0.0,0.0,0.0997102360059741,0.0,0.0
 "bcbacaa",0.0,0.04790263482976461,0.05676737475823546,0.0,0.0
-"bcbbaaa",0.0,0.0,0.0,0.04946030091175555,0.04951270206515967
-"bcbbaab",0.0,0.0,0.0,0.04946030091175555,0.04951270206515967
-"bcbbaca",0.0,0.0,0.0,0.08687557418043507,0.0
-"bcbbbaa",0.0,0.011665690464158813,0.013824513510496838,0.012045027643076049,0.012057788854181652
+"bcbbaaa",0.0,0.0,0.0,0.05022423202508402,0.04951270206515967
+"bcbbaab",0.0,0.0,0.0,0.05022423202508402,0.04951270206515967
+"bcbbaca",0.0,0.0,0.0,0.08821739687219583,0.0
+"bcbbbaa",0.0,0.011665690464158813,0.013824513510496838,0.01223106717797221,0.012057788854181652
 "bcbbbab",0.0,0.1682791583907408,0.0,0.0,0.0
 "bcbbbac",0.0,0.0,0.0,0.0,0.0869676152761377
-"bcbbbbb",0.0,0.0,0.0,0.08687557418043507,0.0
+"bcbbbbb",0.0,0.0,0.0,0.08821739687219583,0.0
 "bcbbcaa",0.15292556166677088,0.0,0.1703021242747064,0.0,0.0
-"bcbbcab",0.0,0.0,0.0,0.08687557418043507,0.0
+"bcbbcab",0.0,0.0,0.0,0.08821739687219583,0.0
 "bcbbcba",0.0,0.0,0.0,0.0,0.0869676152761377
 "bcbcaaa",0.15292556166677088,0.0,0.05676737475823546,0.0,0.0
 "bcbcaab",0.15292556166677088,0.0,0.0,0.0,0.09902540413031934
 "bcbcabb",0.0,0.0,0.0997102360059741,0.0,0.0
-"bcbcbab",0.0,0.0,0.0,0.08687557418043507,0.0
+"bcbcbab",0.0,0.0,0.0,0.08821739687219583,0.0
 "bcbccaa",0.07646278083338544,0.0,0.22706949903294185,0.0,0.0
 "bcbccba",0.0,0.0,0.0,0.0,0.0869676152761377
 "bccaaaa",0.0,0.0,0.0,0.0,0.0869676152761377
 "bccaaba",0.0,0.0,0.05676737475823546,0.0,0.04951270206515967
 "bccaabb",0.0,0.0,0.0,0.0,0.0869676152761377
-"bccabaa",0.0,0.011665690464158813,0.027649027020993675,0.012045027643076049,0.012057788854181652
+"bccabaa",0.0,0.011665690464158813,0.027649027020993675,0.01223106717797221,0.012057788854181652
 "bccabab",0.13430464161924055,0.0,0.0,0.0,0.0
 "bccabac",0.0,0.0841395791953704,0.0,0.0,0.0
 "bccabba",0.0,0.0841395791953704,0.0,0.0,0.0
-"bccacaa",0.07646278083338544,0.0,0.0,0.04946030091175555,0.0
+"bccacaa",0.07646278083338544,0.0,0.0,0.05022423202508402,0.0
 "bccacab",0.0,0.0841395791953704,0.0,0.0,0.0
-"bccacba",0.07646278083338544,0.0,0.0,0.04946030091175555,0.0
+"bccacba",0.07646278083338544,0.0,0.0,0.05022423202508402,0.0
 "bccbaaa",0.08525492260345335,0.05341076247033287,0.0,0.0,0.027602982368972098
 "bccbaab",0.07646278083338544,0.0,0.05676737475823546,0.0,0.0
 "bccbaba",0.0,0.0841395791953704,0.0,0.0,0.0
-"bccbaca",0.0,0.04790263482976461,0.0,0.04946030091175555,0.0
+"bccbaca",0.0,0.04790263482976461,0.0,0.05022423202508402,0.0
 "bccbbab",0.0,0.0841395791953704,0.0,0.0,0.0
 "bccbbac",0.0,0.0,0.0,0.0,0.0869676152761377
 "bccbbba",0.13430464161924055,0.0,0.0,0.0,0.0
 "bccbcaa",0.08525492260345335,0.05341076247033287,0.18988446752781993,0.0,0.0
 "bcccaaa",0.07448368019012144,0.011665690464158813,0.08294708106298103,0.0,0.024115577708363305
-"bccccaa",0.1705098452069067,0.0,0.15823705627318327,0.027573769095343367,0.0
-"caaaabc",0.0,0.0,0.0,0.08687557418043507,0.0
-"caaacaa",0.0,0.0,0.0,0.08687557418043507,0.0
+"bccccaa",0.1705098452069067,0.0,0.15823705627318327,0.027999655305806375,0.0
+"caaaabc",0.0,0.0,0.0,0.08821739687219583,0.0
 "caaacab",0.0,0.0841395791953704,0.0,0.0,0.0
 "caaacbb",0.0,0.0841395791953704,0.0,0.0,0.0
-"caababc",0.0,0.0,0.0,0.04946030091175555,0.04951270206515967
+"caababc",0.0,0.0,0.0,0.05022423202508402,0.04951270206515967
 "caabacc",0.0,0.0,0.0,0.0,0.0869676152761377
-"caabbab",0.0,0.0,0.0,0.08687557418043507,0.0
-"caabbbc",0.0,0.04790263482976461,0.0,0.04946030091175555,0.0
+"caabbab",0.0,0.0,0.0,0.08821739687219583,0.0
+"caabbbc",0.0,0.04790263482976461,0.0,0.05022423202508402,0.0
 "caabbcb",0.0,0.0,0.0,0.0,0.0869676152761377
 "caabcab",0.0,0.0841395791953704,0.0,0.0,0.0
 "caabcac",0.0,0.0841395791953704,0.0,0.0,0.0
@@ -4077,96 +1768,97 @@ excluded: ccacaac
 "caabcca",0.0,0.0,0.0,0.0,0.0869676152761377
 "caacaab",0.0,0.0,0.0,0.0,0.0869676152761377
 "caacaac",0.0,0.0,0.0,0.0,0.0869676152761377
-"caacacb",0.0,0.0,0.0,0.08687557418043507,0.0
+"caacacb",0.0,0.0,0.0,0.08821739687219583,0.0
 "caacbba",0.0,0.04790263482976461,0.0,0.0,0.04951270206515967
 "caaccaa",0.0,0.0,0.0997102360059741,0.0,0.0
 "caaccbb",0.0,0.0841395791953704,0.0,0.0,0.0
-"cabaabc",0.0,0.0,0.0,0.08687557418043507,0.0
-"cabaacc",0.0,0.0,0.0,0.08687557418043507,0.0
-"cababcc",0.0,0.0,0.0,0.08687557418043507,0.0
+"cabaabc",0.0,0.0,0.0,0.08821739687219583,0.0
+"cabaacc",0.0,0.0,0.0,0.08821739687219583,0.0
+"cababcc",0.0,0.0,0.0,0.08821739687219583,0.0
 "cabbaab",0.0,0.0,0.0,0.0,0.0869676152761377
-"cabbcaa",0.04262746130172668,0.0,0.0,0.027573769095343367,0.027602982368972098
+"cabbcaa",0.04262746130172668,0.0,0.0,0.027999655305806375,0.027602982368972098
 "cabcbaa",0.0,0.0841395791953704,0.0,0.0,0.0
-"cabcbba",0.0,0.04790263482976461,0.0,0.04946030091175555,0.0
+"cabcbba",0.0,0.04790263482976461,0.0,0.05022423202508402,0.0
 "cabccaa",0.03724184009506072,0.011665690464158813,0.013824513510496838,0.0,0.012057788854181652
 "cabccab",0.13430464161924055,0.0,0.0,0.0,0.0
 "cacaaaa",0.0,0.0,0.0,0.0,0.0869676152761377
-"cacaaab",0.0,0.0,0.0,0.08687557418043507,0.0
+"cacaaab",0.0,0.0,0.0,0.08821739687219583,0.0
 "cacaaac",0.0,0.0,0.0,0.0,0.0869676152761377
-"cacaabb",0.0,0.0,0.0,0.08687557418043507,0.0
+"cacaabb",0.0,0.0,0.0,0.08821739687219583,0.0
 "cacabaa",0.0,0.0841395791953704,0.0,0.0,0.0
 "cacabbc",0.0,0.0,0.0,0.0,0.0869676152761377
 "cacabca",0.0,0.0,0.0997102360059741,0.0,0.0
 "cacacaa",0.0,0.026705381235166435,0.0632948225092733,0.0,0.027602982368972098
-"cacbaaa",0.0,0.04790263482976461,0.0,0.04946030091175555,0.0
-"cacbbaa",0.04262746130172668,0.0,0.0,0.027573769095343367,0.027602982368972098
+"cacbaaa",0.0,0.04790263482976461,0.0,0.05022423202508402,0.0
+"cacbbaa",0.04262746130172668,0.0,0.0,0.027999655305806375,0.027602982368972098
 "cacbbab",0.0,0.0841395791953704,0.0,0.0,0.0
 "cacbbac",0.0,0.1682791583907408,0.0,0.0,0.0
 "cacbbca",0.0,0.0841395791953704,0.0,0.0,0.0
 "cacbcaa",0.0,0.0841395791953704,0.0,0.0,0.0
-"cacbcba",0.0,0.0,0.0,0.08687557418043507,0.0
-"caccaaa",0.0,0.0,0.05676737475823546,0.04946030091175555,0.0
+"cacbcba",0.0,0.0,0.0,0.08821739687219583,0.0
+"caccaaa",0.0,0.0,0.05676737475823546,0.05022423202508402,0.0
 "caccaab",0.0,0.026705381235166435,0.03164741125463665,0.0,0.027602982368972098
 "caccbaa",0.07646278083338544,0.09580526965952922,0.0,0.0,0.0
 "cacccaa",0.0,0.0841395791953704,0.0,0.0,0.0
 "cbaaaac",0.0,0.0841395791953704,0.0,0.0,0.0
-"cbaaacc",0.0,0.0,0.0,0.04946030091175555,0.04951270206515967
+"cbaaacc",0.0,0.0,0.0,0.05022423202508402,0.04951270206515967
 "cbaabba",0.0,0.0841395791953704,0.0,0.0,0.0
 "cbaacab",0.0,0.0,0.0997102360059741,0.0,0.0
 "cbaacbb",0.0,0.0841395791953704,0.0,0.0,0.0
 "cbaacca",0.0,0.04790263482976461,0.0,0.0,0.04951270206515967
 "cbababa",0.0,0.0,0.0,0.0,0.0869676152761377
-"cbababb",0.0,0.0,0.0,0.08687557418043507,0.0
+"cbababb",0.0,0.0,0.0,0.08821739687219583,0.0
 "cbabaca",0.0,0.0,0.0,0.0,0.0869676152761377
 "cbabacb",0.0,0.0841395791953704,0.0,0.0,0.0
-"cbabcaa",0.07646278083338544,0.0,0.0,0.04946030091175555,0.0
+"cbabcaa",0.07646278083338544,0.0,0.0,0.05022423202508402,0.0
 "cbacaaa",0.13430464161924055,0.0,0.0,0.0,0.0
 "cbacaca",0.0,0.0841395791953704,0.0,0.0,0.0
 "cbacbaa",0.0,0.0841395791953704,0.0,0.0,0.0
 "cbacbac",0.13430464161924055,0.0,0.0,0.0,0.0
 "cbacbba",0.07646278083338544,0.0,0.05676737475823546,0.0,0.0
-"cbaccaa",0.04262746130172668,0.026705381235166435,0.0,0.027573769095343367,0.0
+"cbaccaa",0.04262746130172668,0.026705381235166435,0.0,0.027999655305806375,0.0
 "cbaccab",0.0,0.0841395791953704,0.0,0.0,0.0
 "cbaccba",0.0,0.0841395791953704,0.0,0.0,0.0
 "cbbaaab",0.0,0.0,0.0,0.0,0.0869676152761377
 "cbbaaac",0.0,0.0841395791953704,0.0,0.0,0.0
 "cbbaabb",0.0,0.0,0.05676737475823546,0.0,0.04951270206515967
-"cbbaaca",0.0,0.0,0.05676737475823546,0.04946030091175555,0.0
+"cbbaaca",0.0,0.0,0.05676737475823546,0.05022423202508402,0.0
 "cbbabaa",0.0,0.09580526965952922,0.05676737475823546,0.0,0.0
 "cbbacaa",0.0,0.04790263482976461,0.05676737475823546,0.0,0.0
 "cbbacac",0.0,0.0,0.0,0.0,0.0869676152761377
-"cbbbaab",0.0,0.04790263482976461,0.0,0.04946030091175555,0.0
+"cbbbaab",0.0,0.04790263482976461,0.0,0.05022423202508402,0.0
 "cbbbaac",0.0,0.0841395791953704,0.0,0.0,0.0
-"cbbbabc",0.0,0.0,0.0,0.08687557418043507,0.0
-"cbbbbba",0.0,0.0,0.05676737475823546,0.04946030091175555,0.0
-"cbbbbbb",0.0,0.0,0.0,0.08687557418043507,0.0
-"cbbbcaa",0.01862092004753036,0.023331380928317626,0.013824513510496838,0.024090055286152098,0.0
+"cbbbabc",0.0,0.0,0.0,0.08821739687219583,0.0
+"cbbbbba",0.0,0.0,0.05676737475823546,0.05022423202508402,0.0
+"cbbbbbb",0.0,0.0,0.0,0.08821739687219583,0.0
+"cbbbcaa",0.01862092004753036,0.023331380928317626,0.013824513510496838,0.02446213435594442,0.0
+"cbbbcbb",0.0,0.0,0.0,0.08821739687219583,0.0
 "cbbcaaa",0.15292556166677088,0.0,0.05676737475823546,0.0,0.0
-"cbbcaac",0.0,0.0,0.0,0.08687557418043507,0.0
-"cbbcaba",0.0,0.0,0.0,0.08687557418043507,0.0
+"cbbcaac",0.0,0.0,0.0,0.08821739687219583,0.0
+"cbbcaba",0.0,0.0,0.0,0.08821739687219583,0.0
 "cbbcbaa",0.07646278083338544,0.09580526965952922,0.0,0.0,0.0
 "cbbcbba",0.0,0.0,0.0997102360059741,0.0,0.0
-"cbbccaa",0.07646278083338544,0.0,0.0,0.04946030091175555,0.0
+"cbbccaa",0.07646278083338544,0.0,0.0,0.05022423202508402,0.0
 "cbcaaac",0.0,0.0,0.0,0.0,0.0869676152761377
-"cbcaabb",0.0,0.0,0.0,0.08687557418043507,0.0
+"cbcaabb",0.0,0.0,0.0,0.08821739687219583,0.0
 "cbcabaa",0.0,0.1682791583907408,0.0,0.0,0.0
-"cbcabab",0.0,0.0,0.0,0.08687557418043507,0.0
-"cbcacaa",0.0,0.0,0.0632948225092733,0.027573769095343367,0.027602982368972098
+"cbcabab",0.0,0.0,0.0,0.08821739687219583,0.0
+"cbcacaa",0.0,0.0,0.0632948225092733,0.027999655305806375,0.027602982368972098
 "cbcacab",0.13430464161924055,0.0,0.0,0.0,0.0
 "cbcbaaa",0.0,0.1682791583907408,0.0,0.0,0.0
 "cbcbaca",0.0,0.0,0.0,0.0,0.0869676152761377
 "cbcbbab",0.07646278083338544,0.0,0.0,0.0,0.04951270206515967
 "cbcbcaa",0.0,0.0,0.0997102360059741,0.0,0.0
-"cbcbcca",0.0,0.0,0.0,0.08687557418043507,0.0
-"cbccaaa",0.0,0.0,0.11353474951647093,0.04946030091175555,0.0
+"cbcbcca",0.0,0.0,0.0,0.08821739687219583,0.0
+"cbccaaa",0.0,0.0,0.11353474951647093,0.05022423202508402,0.0
 "cbccaab",0.0,0.0,0.0,0.0,0.0869676152761377
 "cbccaba",0.0,0.0,0.0997102360059741,0.0,0.0
-"cbccbab",0.0,0.0,0.0,0.08687557418043507,0.0
+"cbccbab",0.0,0.0,0.0,0.08821739687219583,0.0
 "cbcccaa",0.15292556166677088,0.0,0.05676737475823546,0.0,0.0
 "cbcccba",0.13430464161924055,0.0,0.0,0.0,0.0
 "ccaaaaa",0.0,0.0,0.0997102360059741,0.0,0.0
-"ccaaaab",0.0,0.0,0.0,0.08687557418043507,0.0
-"ccaaaba",0.0,0.0,0.05676737475823546,0.04946030091175555,0.0
+"ccaaaab",0.0,0.0,0.0,0.08821739687219583,0.0
+"ccaaaba",0.0,0.0,0.05676737475823546,0.05022423202508402,0.0
 "ccaaabb",0.0,0.0,0.0997102360059741,0.0,0.0
 "ccaabba",0.0,0.0841395791953704,0.0,0.0,0.0
 "ccaacba",0.0,0.04790263482976461,0.0,0.0,0.04951270206515967
@@ -4176,59 +1868,58 @@ excluded: ccacaac
 "ccabbaa",0.0,0.1682791583907408,0.0,0.0,0.0
 "ccabbba",0.0,0.0,0.0,0.0,0.0869676152761377
 "ccabbca",0.0,0.0841395791953704,0.0,0.0,0.0
-"ccabcaa",0.0,0.026705381235166435,0.0,0.05514753819068673,0.027602982368972098
-"ccabcab",0.0,0.0,0.0,0.04946030091175555,0.04951270206515967
+"ccabcaa",0.0,0.026705381235166435,0.0,0.05599931061161275,0.027602982368972098
+"ccabcab",0.0,0.0,0.0,0.05022423202508402,0.04951270206515967
 "ccabcba",0.0,0.0,0.0,0.0,0.0869676152761377
-"ccacaac",0.0,0.0,0.0,0.08687557418043507,0.0
+"ccacaac",0.0,0.0,0.0,0.08821739687219583,0.0
 "ccacaba",0.13430464161924055,0.0,0.0,0.0,0.0
-"ccacabb",0.0,0.0,0.0,0.08687557418043507,0.0
-"ccacbaa",0.0,0.0,0.0,0.08687557418043507,0.0
-"ccacbab",0.0,0.04790263482976461,0.0,0.04946030091175555,0.0
-"ccacbba",0.0,0.0,0.0,0.08687557418043507,0.0
+"ccacabb",0.0,0.0,0.0,0.08821739687219583,0.0
+"ccacbaa",0.0,0.0,0.0,0.08821739687219583,0.0
+"ccacbab",0.0,0.04790263482976461,0.0,0.05022423202508402,0.0
+"ccacbba",0.0,0.0,0.0,0.08821739687219583,0.0
 "ccaccab",0.0,0.0841395791953704,0.0,0.0,0.0
-"ccbaaab",0.0,0.0,0.0,0.2606267225413052,0.0
+"ccbaaab",0.0,0.0,0.0,0.2646521906165875,0.0
 "ccbaaac",0.0,0.0841395791953704,0.0,0.0,0.0
-"ccbaaba",0.0,0.0,0.05676737475823546,0.04946030091175555,0.0
+"ccbaaba",0.0,0.0,0.05676737475823546,0.05022423202508402,0.0
 "ccbaaca",0.0,0.09580526965952922,0.0,0.0,0.04951270206515967
 "ccbaacb",0.0,0.0,0.0997102360059741,0.0,0.0
 "ccbabaa",0.0,0.2524187375861112,0.0,0.0,0.0
 "ccbabbb",0.0,0.0,0.0,0.0,0.0869676152761377
 "ccbacaa",0.0,0.0841395791953704,0.0,0.0,0.0
 "ccbacba",0.13430464161924055,0.0,0.0,0.0,0.0
-"ccbacca",0.0,0.0,0.0,0.08687557418043507,0.0
+"ccbacca",0.0,0.0,0.0,0.08821739687219583,0.0
 "ccbbaaa",0.08525492260345335,0.026705381235166435,0.03164741125463665,0.0,0.0
 "ccbbaab",0.01862092004753036,0.023331380928317626,0.013824513510496838,0.0,0.012057788854181652
 "ccbbabc",0.0,0.0841395791953704,0.0,0.0,0.0
-"ccbbbaa",0.03724184009506072,0.034997071392476445,0.041473540531490515,0.012045027643076049,0.0
+"ccbbbaa",0.03724184009506072,0.034997071392476445,0.041473540531490515,0.01223106717797221,0.0
 "ccbbbab",0.0,0.0841395791953704,0.0,0.0,0.0
 "ccbbbba",0.0,0.0,0.0997102360059741,0.0,0.0
 "ccbbcaa",0.1705098452069067,0.0,0.0632948225092733,0.0,0.027602982368972098
 "ccbbcba",0.0,0.0841395791953704,0.0,0.0,0.0
-"ccbcaaa",0.07448368019012144,0.034997071392476445,0.0,0.024090055286152098,0.012057788854181652
+"ccbcaaa",0.07448368019012144,0.034997071392476445,0.0,0.02446213435594442,0.012057788854181652
 "ccbcabb",0.0,0.0841395791953704,0.0,0.0,0.0
 "ccbcaca",0.0,0.0,0.0997102360059741,0.0,0.0
-"ccbcbaa",0.08525492260345335,0.0,0.03164741125463665,0.027573769095343367,0.0
+"ccbcbaa",0.08525492260345335,0.0,0.03164741125463665,0.027999655305806375,0.0
 "ccbcbba",0.07646278083338544,0.0,0.05676737475823546,0.0,0.0
-"ccbccaa",0.0,0.0,0.0,0.08687557418043507,0.0
+"ccbccaa",0.0,0.0,0.0,0.08821739687219583,0.0
 "ccbccba",0.0,0.0,0.0997102360059741,0.0,0.0
 "cccaaaa",0.0,0.0,0.0,0.0,0.0869676152761377
 "cccaaab",0.13430464161924055,0.0,0.0,0.0,0.0
-"cccaaba",0.0,0.0,0.05676737475823546,0.04946030091175555,0.0
-"cccaabb",0.0,0.0,0.0,0.08687557418043507,0.0
-"cccabaa",0.05586276014259108,0.0,0.013824513510496838,0.024090055286152098,0.024115577708363305
+"cccaaba",0.0,0.0,0.05676737475823546,0.05022423202508402,0.0
+"cccaabb",0.0,0.0,0.0,0.08821739687219583,0.0
+"cccabaa",0.05586276014259108,0.0,0.013824513510496838,0.02446213435594442,0.024115577708363305
 "cccabab",0.13430464161924055,0.0,0.0,0.0,0.0
-"cccacaa",0.0,0.026705381235166435,0.0632948225092733,0.027573769095343367,0.0
+"cccacaa",0.0,0.026705381235166435,0.0632948225092733,0.027999655305806375,0.0
 "cccbaab",0.0,0.04790263482976461,0.05676737475823546,0.0,0.0
-"cccbbaa",0.03724184009506072,0.0,0.013824513510496838,0.012045027643076049,0.024115577708363305
+"cccbbaa",0.03724184009506072,0.0,0.013824513510496838,0.01223106717797221,0.024115577708363305
 "cccbcaa",0.15292556166677088,0.0,0.05676737475823546,0.0,0.0
-"ccccaaa",0.0,0.0,0.0,0.04946030091175555,0.04951270206515967
+"ccccaaa",0.0,0.0,0.0,0.05022423202508402,0.04951270206515967
 "ccccaba",0.07646278083338544,0.0,0.0,0.0,0.04951270206515967
-"ccccbaa",0.08525492260345335,0.0,0.03164741125463665,0.027573769095343367,0.0
+"ccccbaa",0.08525492260345335,0.0,0.03164741125463665,0.027999655305806375,0.0
 
 "","BalusC","Darin Dimitrov","Hans Passant","Jon Skeet","Marc Gravell"
 "BalusC",0,00000,0,00000,0,00000,0,00000,0,00000
 "Darin Dimitrov",0,05162,0,00000,0,00000,0,00000,0,00000
-"Hans Passant",0,04708,0,05543,0,00000,0,00000,0,00000
-"Jon Skeet",0,18800,0,05710,0,04269,0,00000,0,00000
-"Marc Gravell",0,06934,0,04448,0,03211,0,07656,0,00000
-
+"Hans Passant",0,04781,0,05629,0,00000,0,00000,0,00000
+"Jon Skeet",0,18800,0,05710,0,04335,0,00000,0,00000
+"Marc Gravell",0,06934,0,04448,0,03261,0,07656,0,00000
